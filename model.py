@@ -34,7 +34,7 @@ class LSTMTagger(Model):
         embeddings = self.word_embeddings(sentence)
         encoder_out = self.encoder(embeddings, mask)
         tag_logits = self.hidden2tag(encoder_out)
-        last_encoder_out = encoder_out[:, -1, :]
+        last_encoder_out = encoder_out[:, -1, :]  # batch, length, hidden_size
         intent_logits = self.hidden2intent(last_encoder_out)
         output = {"tag_logits": tag_logits, "intent_logits": intent_logits}
 

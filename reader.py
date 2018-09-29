@@ -1,4 +1,4 @@
-from typing import Iterator, List, Dict
+from typing import Iterator, List, Dict, Any
 
 from allennlp.data import Instance
 from allennlp.data.fields import LabelField, SequenceLabelField, TextField
@@ -47,6 +47,19 @@ class EditmeDatasetReader(DatasetReader):
                 pairs = pos.split()
                 sentence, tags = zip(*(pair.split("###") for pair in pairs))
                 yield self.text_to_instance([Token(word) for word in sentence], tags, intent)
+
+
+def read_iter(file_path: str) -> Iterator[Any]:
+    """
+    An iterator that returns raw string for prediction
+    """
+    with open(file_path) as f:
+        next(f)
+        for line in f:
+            pos, intent = line.strip().split('|')
+            pairs = pos.split()
+            sentence, tags = zip(*(pair.split("###") for pair in pairs))
+            yield sentence, tags, intent
 
 
 if __name__ == "__main__":
