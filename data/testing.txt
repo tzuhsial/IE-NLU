@@ -1,0 +1,593 @@
+tags|intent
+crop###B-action photo###B-mask using###B-value the###I-intent rule###I-value of###I-value thirds###I-value so###B-intent that###I-intent the###I-intent subject###I-intent is###I-intent not###I-intent centered###I-intent and###I-intent the###I-intent top###I-intent 1###I-intent 3###I-intent aligns###I-intent with###I-intent eye###I-intent level###I-intent|crop
+increase###B-action the###B-attribute saturation###I-attribute of###B-mask colors###I-mask in###B-mask foreground###I-mask|adjust
+decrease###B-action brightness###B-attribute of###B-mask background###I-mask|adjust
+crop###B-action out###I-action green###B-mask leaf###I-mask fronds###I-mask on###B-mask right###I-mask distracting###O|crop
+darken###B-value the###I-mask black###I-attribute color###I-attribute of###B-mask the###I-mask girls###I-mask hair###I-mask and###I-mask shirt###I-mask|other
+reduce###B-value the###I-mask brightness###I-attribute in###B-mask the###I-mask background###I-mask|other
+sharpen###B-attribute the###I-intent image###I-mask to###B-intent reduce###I-intent the###I-intent motion###I-intent blur###I-intent on###I-intent the###I-intent woman###I-intent|other
+slightly###B-value brighten###B-attribute the###I-intent woman###I-mask s###I-mask face###I-mask to###B-intent match###I-intent with###I-intent the###I-intent tone###I-intent on###I-intent her###I-intent arms###I-intent|other
+crop###B-action about###B-value an###I-value inch###I-value and###I-mask a###I-value half###I-value from###B-mask both###I-mask the###I-mask left###I-mask and###I-mask right###I-mask sides###I-mask of###B-mask the###I-mask photo###I-mask|crop
+edit###B-action out###I-action the###I-mask plant###I-mask leaf###I-mask on###B-mask the###I-mask right###I-mask|delete
+please###O change###B-action the###B-mask pamphlet###I-mask she###B-mask is###I-mask holding###I-mask into###O a###B-dstobject dictionary###I-dstobject|replace
+put###B-action a###I-action cast###I-action on###B-mask the###I-mask girl###I-mask s###I-mask right###I-mask arm###I-mask|add
+remove###B-action the###I-mask leaf###I-mask on###B-mask the###I-mask right###I-mask hand###I-mask side###I-mask|delete
+remove###B-action the###I-mask jacket###I-mask hanging###B-mask from###I-mask the###I-mask girl###I-mask s###I-mask side###I-mask|delete
+clean###B-action up###I-action the###I-mask stain###I-mask in###B-mask the###I-mask middle###I-mask of###I-mask the###I-mask floor###I-mask|delete
+the###B-comment photo###I-comment is###I-comment too###I-comment bright###I-comment|comment
+nothing###B-comment is###I-comment really###I-comment in###I-comment focus###I-comment|comment
+the###B-comment image###I-comment is###I-comment not###I-comment centered###I-comment|comment
+the###B-comment image###I-comment needs###I-comment to###I-comment be###I-comment made###I-comment less###I-comment sharper###I-comment|comment
+the###B-mask photo###I-mask contrast###B-action needs###B-value to###I-value be###I-value less###I-value|adjust
+the###I-intent drugs###I-intent and###I-intent the###I-intent syringe###B-mask is###I-intent depressing###I-intent please###O remove###O them###O and###I-intent replace###B-action the###I-intent syringe###B-mask with###O a###B-dstobject soup###I-dstobject spoon###I-dstobject|replace
+please###O remove###B-action the###I-mask chair###I-mask s###I-mask reflection###I-mask in###B-mask the###I-mask foreground###I-mask|delete
+please###O make###B-action the###O table###I-dstobject into###O a###B-dstobject stone###I-dstobject table###I-dstobject|replace
+please###O add###B-action a###B-mask helping###I-mask of###I-mask sausage###I-mask to###B-mask the###I-mask plate###I-mask of###I-mask food###I-mask|add
+please###O make###B-action the###I-mask juice###I-dstobject in###I-mask the###I-mask cup###I-mask look###O like###O fresh###B-dstobject orange###I-dstobject juice###I-dstobject rather###O than###O kool###B-mask aid###I-mask|replace
+lighten###B-attribute image###B-mask|adjust
+crop###B-action image###B-mask|crop
+increase###B-value resolution###B-attribute|adjust
+lighten###B-action the###B-mask food###I-mask|adjust
+increase###B-value contrast###B-attribute|adjust
+make###B-action the###I-intent cabin###I-mask brighter###B-attribute and###O pop###B-intent more###I-intent from###I-intent the###I-intent snow###I-intent|adjust
+make###B-action the###I-mask green###B-attribute on###B-mask the###I-mask trees###I-mask greener###B-value|adjust
+make###B-action the###I-mask background###I-mask moe###B-value shadow###B-attribute behind###B-mask the###I-mask cabin###I-intent so###B-intent th###I-intent cabin###I-intent pops###I-intent out###I-intent more###I-intent|adjust
+th###B-intent ewhite###I-intent of###I-intent the###B-mask snow###I-mask looks###I-intent over###I-intent exposed###I-intent tone###B-action down###B-value the###B-mask brightness###B-attribute of###I-intent the###B-mask snow###I-mask|adjust
+the###B-mask image###I-mask needs###O more###B-value saturation###B-attribute to###B-intent make###I-intent it###I-intent more###B-value lively###I-intent|adjust
+remove###B-action trees###B-mask from###B-mask foreground###I-mask in###I-mask front###I-mask of###I-mask house###I-mask|delete
+remove###B-action branches###B-mask from###B-mask house###I-mask roofline###I-mask|delete
+add###B-action a###B-mask fire###I-mask somewhere###B-mask in###I-mask the###I-mask photo###I-mask|add
+add###B-action footprints###B-mask in###I-mask the###I-mask snow###I-mask|add
+blur###B-attribute edges###B-mask of###I-mask the###I-intent frame###I-mask to###B-intent put###I-intent more###I-intent focus###I-intent on###I-intent the###I-intent house###I-intent|adjust
+add###B-action a###B-mask small###I-mask chimney###I-mask on###I-mask top###I-mask of###I-mask the###I-mask house###I-mask with###I-mask smoke###I-mask coming###I-mask out###I-mask|add
+add###B-action some###B-mask redbirds###I-mask to###B-mask the###I-mask tree###I-mask on###I-mask the###I-mask right###I-mask|add
+add###B-action some###B-mask rabbits###I-mask in###B-mask the###I-mask foreground###I-mask on###I-mask the###I-mask left###I-mask|add
+show###B-action a###B-mask shoveled###I-mask path###I-mask coming###I-mask from###I-mask the###I-mask house###I-mask|add
+add###B-action a###B-mask window###I-mask on###B-mask the###I-mask front###I-mask left###I-mask of###I-mask the###I-mask house###I-mask|add
+try###B-comment handing###I-comment a###I-comment wreath###I-comment on###I-comment the###I-comment door###I-comment something###I-comment with###I-comment white###I-comment and###I-comment red###I-comment as###I-comment a###I-comment pop###I-comment for###I-comment a###I-comment christmas###I-comment card###I-comment etc###I-comment|comment
+make###B-action the###O snow###B-mask brighter###B-value (###B-intent more###I-intent crisp###I-intent )###I-intent|adjust
+make###B-action the###I-mask dark###B-attribute grain###I-attribute in###B-mask the###I-mask building###I-mask stand###B-value out###I-value more###I-value dark###B-attribute grain###I-attribute only###O|adjust
+crop###B-action a###B-value bit###I-value out###I-value of###B-mask the###I-mask bottom###I-mask|crop
+crop###B-action a###B-value bit###I-value of###I-value each###B-mask the###I-mask right###I-mask and###I-mask the###I-mask left###I-mask|crop
+center###B-action the###I-mask cabin###I-mask in###I-mask the###I-mask photo###I-mask more###B-value so###B-intent roof###I-intent is###I-intent lower###I-intent|other
+take###B-action photo###I-action from###I-action front###I-action instead###I-action of###I-action side###I-action angle###I-action|other
+balance###B-action the###O exposure###B-attribute|adjust
+crop###B-action trees###B-mask on###I-mask right###I-mask a###I-mask bit###I-mask more###I-mask|crop
+crop###B-action bottom###B-mask snow###I-mask a###B-value bit###I-value more###I-value|crop
+resize###B-action photo###B-mask to###B-intent show###I-intent large###I-intent elephant###I-intent and###I-intent trainer###I-intent|zoom
+remove###B-action vehicle###B-mask|delete
+add###B-action trees###B-mask|add
+make###B-action the###B-mask ground###I-mask muddy###B-mask and###I-mask brown###I-mask red###I-mask|add
+show###B-action the###O man###B-mask carrying###B-mask a###I-mask bucket###I-mask of###I-mask food###I-mask|add
+focus###B-attribute on###B-mask small###I-mask elephant###I-mask|adjust
+blur###B-attribute out###B-value license###B-mask plate###I-mask|adjust
+make###B-action eyes###B-mask brighter###B-value|adjust
+edit###B-action out###B-value car###B-mask completely###B-value|delete
+orient###B-action portrait###B-mask|rotate
+would###O you###O put###B-action a###B-mask banana###I-mask in###B-mask the###I-mask hand###I-mask of###I-mask the###I-mask man###I-mask who###I-mask is###I-mask reaching###I-mask towards###I-mask the###I-mask elephant###I-mask|add
+would###O you###O change###B-action the###I-mask tail###I-mask of###I-mask the###I-mask elephant###I-mask to###O a###B-dstobject bungee###I-dstobject cord###I-dstobject|replace
+please###B-comment dust###I-comment of###I-comment the###I-comment baby###I-comment elephant###I-comment s###I-comment head###I-comment so###I-comment he###I-comment may###I-comment look###I-comment prouder###I-comment|comment
+please###O replace###B-action the###I-mask pants###I-mask the###I-mask man###I-mask is###I-mask wearing###I-mask with###O cargo###B-dstobject shorts###I-dstobject which###I-dstobject have###I-dstobject american###I-dstobject flag###I-dstobject print###I-dstobject|replace
+please###O remove###B-action the###B-mask dickies###B-mask symbol###I-mask from###O the###B-mask man###I-mask s###I-mask left###I-mask breast###I-mask|delete
+increase###B-action saturation###B-attribute|adjust
+crop###B-action image###B-mask|crop
+increase###B-action contrast###B-attribute|adjust
+blur###B-attribute background###B-mask|adjust
+increase###B-action clarity###B-attribute|adjust
+make###B-action the###B-mask photo###I-mask brighter###B-attribute|adjust
+remove###B-action or###O blur###O the###I-mask empty###I-mask pan###I-mask with###I-mask the###I-mask leftover###I-mask food###I-mask|delete
+remove###B-action the###B-mask blob###I-mask of###I-mask orange###I-mask food###I-mask from###O the###B-mask clipboard###I-mask|delete
+make###O the###B-mask plate###B-mask of###I-mask food###I-mask in###B-value focus###B-attribute and###O the###B-mask background###I-mask out###B-value of###I-mask focus###B-attribute|adjust
+brighten###B-action the###B-mask colors###B-attribute on###O the###B-mask plate###I-mask of###I-mask food###I-mask|adjust
+lighten###B-attribute the###B-mask image###I-mask|adjust
+color###B-attribute correct###O to###B-intent remove###I-intent the###I-intent yellow###I-intent hue###I-intent|adjust
+increase###B-action the###O whites###B-attribute|adjust
+remove###B-action some###B-mask clutter###I-mask|delete
+increase###B-action contrast###B-attribute|adjust
+photo###B-comment is###I-comment slightly###I-comment dark###I-comment may###I-comment look###I-comment better###I-comment with###I-comment better###I-comment lighting###I-comment|comment
+if###B-comment one###I-comment object###I-comment is###I-comment the###I-comment focus###I-comment the###I-comment area###I-comment should###I-comment be###I-comment less###I-comment cluttered###I-comment|comment
+mess###B-comment and###I-comment dirt###I-comment in###I-comment the###I-comment kitchen###I-comment make###I-comment the###I-comment food###I-comment seem###I-comment less###I-comment appealing###I-comment|comment
+food###B-comment on###I-comment plate###I-comment could###I-comment be###I-comment more###I-comment cleanly###I-comment placed###I-comment instead###I-comment of###I-comment dumped###I-comment on###I-comment plate###I-comment|comment
+plate###B-comment could###I-comment be###I-comment a###I-comment different###I-comment color###I-comment that###I-comment would###I-comment contrast###I-comment rather###I-comment than###I-comment blend###I-comment in###I-comment with###I-comment the###I-comment green###I-comment and###I-comment earth###I-comment tones###I-comment of###I-comment the###I-comment food###I-comment|comment
+remove###B-action pan###B-mask with###I-mask spatula###I-mask on###I-mask left###I-mask of###I-mask plate###I-mask|delete
+remove###B-action white###B-mask object###I-mask to###I-mask right###I-mask of###I-mask plate###I-mask|delete
+remove###B-action sour###B-mask cream###I-mask container###I-mask|delete
+change###B-action plate###B-mask color###B-attribute to###O white###B-value with###I-value navy###I-value blue###I-value decorative###I-value lines###I-value circuling###I-value outside###I-value rim###I-value|adjust
+make###B-action plate###B-mask larger###B-value|transform
+make###B-comment food###I-comment look###I-comment more###I-comment appealing###I-comment place###I-comment plate###I-comment bowls###I-comment on###I-comment blond###I-comment wood###I-comment table###I-comment clean###I-comment up###I-comment all###I-comment bowls###I-comment to###I-comment remove###I-comment sloppy###I-comment appearance###I-comment clean###I-comment up###I-comment any###I-comment spilled###I-comment food###I-comment on###I-comment table###I-comment change###I-comment design###I-comment on###I-comment all###I-comment bowls###I-comment to###I-comment match###I-comment new###I-comment plate###I-comment design###I-comment|comment
+adjust###B-action tilt###O of###O frame###O so###B-intent that###I-intent the###I-intent bus###I-intent is###I-intent horizontal###I-intent|rotate
+clear###B-action up###O blury###B-attribute rear###B-mask tire###I-mask|adjust
+enhance###B-action the###O reds###O and###O blues###O and###O overall###O color###B-attribute to###B-intent brighten###I-intent image###I-intent|adjust
+remove###B-action the###I-mask other###I-mask cars###I-mask in###B-mask the###I-mask picture###I-mask to###I-intent draw###I-intent focus###I-intent to###I-intent bus###I-intent|delete
+would###O you###O make###O the###I-mask vanilla###B-mask on###B-mask the###I-mask bottle###I-mask which###O is###I-intent on###B-mask the###I-mask side###I-mask of###I-mask the###I-mask bus###I-mask look###B-action clearer###B-attribute so###B-intent it###I-intent is###I-intent more###I-intent easily###I-intent read###I-intent|adjust
+there###B-mask is###I-mask a###I-mask bus###I-mask stop###I-mask with###I-mask a###I-mask symbol###I-mask which###I-mask looks###I-mask like###I-mask an###I-mask m###I-mask under###I-mask the###I-mask symbol###I-mask is###I-mask text###B-mask which###I-mask can###I-mask not###I-mask be###I-mask read###I-mask if###O it###O is###I-mask not###I-mask possible###O to###O clear###O the###I-mask text###B-mask up###O would###O you###O remove###B-action it###O altogether###O|delete
+make###B-action the###I-mask stagecoach###B-mask on###O the###I-mask face###I-mask of###I-mask the###I-mask bus###I-mask more###B-value visible###B-attribute|adjust
+remove###B-action the###I-mask reflection###I-mask from###B-mask the###I-mask windows###I-mask of###I-mask the###I-mask building###I-mask in###I-mask front###I-mask of###I-mask the###I-mask bus###I-mask stop###I-mask|delete
+remove###B-action the###I-mask shadow###I-mask from###O under###B-mask the###I-mask bus###I-mask|delete
+crop###B-action the###I-mask right###I-mask side###I-mask of###I-mask the###I-mask picture###I-mask until###I-mask you###I-mask get###I-mask to###I-mask the###I-mask bus###I-mask|crop
+crop###B-action the###I-mask left###I-mask hand###I-mask side###I-mask until###I-mask you###I-mask get###I-mask the###I-mask car###I-mask out###I-mask of###I-mask the###I-mask picture###I-mask|crop
+crop###B-action the###I-mask bottom###I-mask part###I-mask of###I-mask the###I-mask picture###I-mask until###B-value you###O get###O to###O the###I-mask white###I-mask mark###I-mask in###I-mask the###I-mask road###I-mask|crop
+tilt###B-action rotate###I-action the###B-mask picture###I-mask to###B-intent give###I-intent it###I-intent more###I-intent of###I-intent a###I-intent level###I-intent view###I-intent (###I-intent so###I-intent it###I-intent doesn###I-intent t###I-intent look###I-intent like###I-intent it###I-intent is###I-intent going###I-intent so###I-intent downhill###I-intent and###I-intent off###I-intent balance###I-intent )###I-intent|rotate
+sharpen###B-attribute the###O image###B-mask and###O brighten###B-action the###O contrast###B-attribute|adjust
+the###B-comment photo###I-comment is###I-comment too###I-comment magnified###I-comment|comment
+the###B-mask photo###I-mask is###O too###B-value bright###B-attribute|adjust
+nothing###B-comment is###I-comment really###I-comment in###I-comment focus###I-comment|comment
+the###B-comment image###I-comment is###I-comment too###I-comment big###I-comment|comment
+nothing###B-comment is###I-comment really###I-comment in###I-comment focus###I-comment|comment
+make###B-action the###B-mask sky###I-mask blue###B-attribute|adjust
+crop###B-action the###B-mask image###I-mask|crop
+blur###B-attribute the###B-mask background###I-mask|adjust
+increase###B-action the###O contrast###B-attribute|adjust
+add###B-action a###O warm###B-value hue###B-attribute|adjust
+crop###B-action the###I-intent photo###I-intent keeping###B-value the###I-intent aspect###I-value ratio###I-value the###I-intent same###I-value cutting###O the###I-intent bottom###I-mask and###I-mask left###I-mask edges###I-mask off###O so###B-intent that###I-intent the###I-intent double###I-intent yellow###I-intent line###I-intent on###I-intent the###I-intent road###I-intent appears###I-intent to###I-intent continue###I-intent to###I-intent run###I-intent out###I-intent of###I-intent the###I-intent photo###I-intent|crop
+reduce###B-action the###I-intent glare###B-attribute on###O the###I-intent red###I-mask car###I-mask to###B-intent prevent###I-intent it###I-intent from###I-intent being###I-intent a###I-intent focus###I-intent point###I-intent when###I-intent looking###I-intent at###I-intent the###I-intent photo###I-intent|adjust
+adjust###B-action the###I-intent contrast###B-attribute the###I-intent photo###I-intent appears###I-intent dark###I-intent for###I-intent instance###I-intent the###I-intent black###I-intent car###I-intent in###I-intent the###I-intent oncoming###I-intent lane###I-intent is###I-intent very###I-intent difficult###I-intent to###I-intent differentiate###I-intent the###I-intent tires###I-intent from###I-intent the###I-intent car###I-intent|adjust
+the###I-mask drivers###I-mask hand###I-mask sticking###I-mask out###I-intent of###I-mask the###I-mask closest###I-mask car###I-mask should###O be###O edited###B-action out###I-intent it###B-intent jumps###I-intent out###I-intent as###I-intent odd###I-intent to###I-intent me###I-intent|delete
+the###I-mask backs###I-mask of###I-intent the###I-mask traffic###I-mask lights###I-mask (###I-mask for###I-mask the###I-mask oncoming###I-mask lane###I-mask )###I-mask should###O be###O touched###B-action up###O so###B-intent they###I-intent don###I-intent t###I-intent appear###I-intent corroded###I-intent in###I-intent need###I-intent of###I-intent paint###I-intent|other
+the###B-comment image###I-comment is###I-comment too###I-comment big###I-comment|comment
+the###B-mask image###I-mask needs###O to###O be###O made###B-action more###B-value sharper###B-attribute|adjust
+the###B-comment image###I-comment is###I-comment too###I-comment centered###I-comment|comment
+the###B-comment photo###I-comment is###I-comment too###I-comment magnified###I-comment|comment
+the###B-mask photo###I-mask is###O too###B-value bright###B-attribute|adjust
+decrease###B-action the###B-attribute blacks###I-attribute|adjust
+increase###B-action the###O whites###B-attribute|adjust
+blur###B-attribute the###B-mask background###I-mask|adjust
+take###B-action out###I-action some###B-value of###O the###B-mask wires###I-mask|delete
+lighten###B-attribute the###B-mask subject###I-mask|adjust
+remove###B-action posters###B-mask from###O fence###B-mask|delete
+remove###B-action bike###B-mask from###O fence###B-mask|delete
+add###B-action bike###B-mask rack###I-mask near###B-mask black###I-mask pole###I-mask|add
+remove###B-action lighting###B-mask glare###I-mask from###B-mask top###I-mask of###I-mask buildings###I-mask|delete
+add###B-action more###B-mask women###I-mask walking###I-mask|add
+adjust###B-action exposure###B-attribute|adjust
+adjust###B-action white###B-attribute balance###I-attribute|adjust
+add###B-action glow###B-mask to###B-mask sky###I-mask|add
+sharpen###B-attribute filter###I-attribute|apply
+grayscale###B-attribute|apply
+i###B-comment would###I-comment take###I-comment the###I-comment photo###I-comment from###I-comment the###I-comment sky###I-comment instead###I-comment of###I-comment from###I-comment the###I-comment ground###I-comment|comment
+i###B-comment would###I-comment take###I-comment the###I-comment photo###I-comment from###I-comment the###I-comment front###I-comment of###I-comment the###I-comment building###I-comment or###I-comment at###I-comment a###I-comment side###I-comment angle###I-comment|comment
+i###B-comment would###I-comment wait###I-comment for###I-comment a###I-comment more###I-comment attractive###I-comment car###I-comment to###I-comment pass###I-comment and###I-comment take###I-comment it###I-comment in###I-comment the###I-comment photo###I-comment or###I-comment no###I-comment car###I-comment at###I-comment all###I-comment|comment
+i###B-comment would###I-comment try###I-comment to###I-comment minimize###I-comment light###I-comment to###I-comment make###I-comment the###I-comment building###I-comment appear###I-comment darker###I-comment and###I-comment more###I-comment interesting###I-comment|comment
+i###B-comment would###I-comment try###I-comment to###I-comment get###I-comment a###I-comment clearer###I-comment picture###I-comment of###I-comment the###I-comment people###I-comment|comment
+the###I-mask highlights###B-attribute are###I-intent blown###I-intent out###I-intent especially###O in###B-mask the###I-mask sky###I-mask and###I-mask on###I-mask the###I-mask buildings###I-mask bring###B-action down###B-value the###I-mask highlights###B-attribute|adjust
+add###B-action a###O bluish###B-attribute tint###I-attribute to###B-mask the###I-mask sky###I-mask|adjust
+lighten###B-action the###I-mask exposure###B-attribute especially###B-mask around###I-mask the###I-mask people###I-mask on###I-mask the###I-mask sidewalk###I-mask it###B-intent s###I-intent too###I-intent dark###I-intent|adjust
+increase###B-action the###B-mask contrast###B-attribute in###O the###B-mask photo###I-mask as###I-mask a###I-mask whole###I-mask|adjust
+increase###B-action the###I-intent saturation###B-attribute to###B-intent bring###I-intent out###I-intent the###I-intent colors###I-intent of###I-intent the###I-intent car###I-intent and###I-intent posters###I-intent more###I-intent|adjust
+the###B-comment image###I-comment is###I-comment too###I-comment big###I-comment|comment
+the###B-comment photo###I-comment is###I-comment too###I-comment bright###I-comment|comment
+the###B-comment photo###I-comment is###I-comment too###I-comment magnified###I-comment|comment
+nothing###B-comment is###I-comment really###I-comment in###I-comment focus###I-comment|comment
+the###B-mask image###I-mask needs###O to###O be###O made###B-action more###B-value sharper###B-attribute|adjust
+crop###B-action the###I-intent photo###I-mask so###B-intent that###I-intent the###I-intent road###I-intent on###I-intent the###I-intent right###I-intent is###I-intent not###I-intent visible###I-intent|crop
+crop###B-action the###I-mask bottom###I-mask of###I-intent the###I-mask photo###I-mask so###B-intent that###I-intent there###I-intent are###I-intent three###I-intent equal###I-intent parts###I-intent of###I-intent sky###I-intent forest###I-intent and###I-intent plants###I-intent|crop
+change###B-action the###B-mask color###B-attribute of###O the###B-mask sky###I-mask to###O a###O richer###B-value blue###I-value color###B-attribute|adjust
+add###B-action a###B-mask scarecrow###I-mask to###B-intent the###I-intent left###I-mask side###I-mask of###I-mask the###I-intent field###I-mask to###B-intent break###I-intent up###I-intent the###I-intent lines###I-intent|add
+add###B-action more###B-value contrast###B-attribute to###B-intent the###I-mask trees###I-mask in###I-mask the###I-mask middle###I-mask to###B-intent make###I-intent them###I-intent less###I-intent hazy###I-intent|adjust
+increase###B-action contrast###B-attribute by###O making###O the###I-mask darker###I-value parts###I-mask of###I-mask the###I-mask most###I-mask visible###I-mask plants###I-mask a###B-value darker###I-value richer###I-value green###I-value|adjust
+sharpen###B-action the###I-mask focus###B-attribute on###O the###I-mask blades###I-mask of###I-mask grass###I-mask at###I-mask the###I-mask very###I-mask bottom###I-mask of###I-mask the###I-mask picture###I-mask|adjust
+add###B-action color###B-attribute variation###I-attribute to###B-mask the###I-mask tree###I-mask leaves###I-mask in###I-mask the###I-mask background###I-mask with###O bits###B-value of###I-value yellowish###I-value green###I-value brown###I-value white###I-value and###I-value or###I-value blue###I-value|adjust
+add###B-action a###O brighter###B-value turquoise###I-value hue###B-attribute to###O the###I-mask sky###I-mask in###I-mask the###I-mask top###I-mask of###I-mask the###I-mask picture###I-mask|adjust
+make###B-action the###I-value trees###I-mask have###B-intent more###I-intent varied###I-intent heights###I-intent by###O raising###B-value the###I-value height###I-value of###I-value a###I-value scattered###I-value few###I-value of###I-value them###I-value|transform
+make###O the###B-mask dirt###I-mask road###I-mask more###B-value visible###I-intent by###O making###B-action it###O darker###B-attribute and###O more###B-value brown###B-attribute|adjust
+photoshop###B-action some###B-mask people###I-mask working###I-mask on###I-mask the###B-mask crops###I-mask into###O the###B-mask photo###I-mask think###O farm###B-mask workers###I-mask|add
+make###B-action the###B-mask sky###I-mask bright###B-value blue###B-attribute with###O a###B-mask few###I-mask scattered###I-mask clouds###I-mask|add
+add###B-action a###B-mask tractor###I-mask in###O the###I-mask flat###I-mask portion###I-mask of###I-mask the###I-mask field###I-mask|add
+add###B-action a###B-mask scarecrow###I-mask|add
+adjust###B-action the###O brightness###B-attribute to###B-intent give###I-intent it###I-intent a###I-intent sunnier###I-intent feel###I-intent|adjust
+slightly###B-value crop###B-action the###I-value photo###I-mask using###B-value the###I-value rule###I-value of###I-intent thirds###I-value to###I-intent bring###I-intent focus###I-intent to###I-intent specific###I-intent rows###I-intent of###I-intent vines###I-intent|crop
+increase###B-action saturation###B-attribute of###I-intent green###I-intent and###I-intent yellow###B-attribute to###B-intent make###I-intent the###I-intent rows###I-intent of###I-intent vines###I-intent stand###I-intent out###I-intent against###I-intent brown###I-intent dirt###I-intent and###I-intent darker###I-intent green###I-intent treeline###I-intent|adjust
+increase###B-action saturation###B-attribute of###B-mask blue###I-mask sky###I-mask|adjust
+try###O to###O sharpen###B-attribute the###O photo###B-mask without###B-value oversharpening###I-value|adjust
+decrease###B-action overall###B-mask color###B-attribute saturation###I-attribute (###B-intent make###I-intent the###I-intent darkest###I-intent points###I-intent of###I-intent the###I-intent photo###I-intent lighter###I-intent )###I-intent to###I-intent bring###I-intent the###I-intent focus###I-intent to###I-intent bright###I-intent colors###I-intent and###I-intent give###I-intent a###I-intent rustic###I-intent feel###I-intent|adjust
+increase###B-action saturation###B-attribute of###B-mask green###I-mask color###I-mask|adjust
+increase###B-action levels###B-attribute of###I-attribute shadows###I-attribute|adjust
+decrease###B-action highlights###B-attribute overexposure###I-attribute on###O plants###B-mask up###I-mask front###I-mask|adjust
+increase###B-action saturation###B-attribute of###B-mask blue###I-mask in###I-mask sky###I-mask|adjust
+reduce###B-action yellow###B-attribute saturation###I-attribute on###B-mask ground###I-mask plants###I-mask|adjust
+find###B-action a###B-attribute photo###I-attribute filter###I-attribute to###B-intent make###I-intent the###I-intent image###I-intent more###I-intent eye###I-intent catching###I-intent|apply
+crop###B-action the###B-mask picture###O to###O remove###O the###B-mask door###I-mask|crop
+brighten###B-attribute the###O overall###B-mask image###I-mask|adjust
+zoom###B-action the###B-mask image###I-mask in###B-value about###I-value 5###I-value to###I-value 10###I-value|zoom
+make###B-action the###I-mask tv###B-mask more###B-value centered###B-mask in###I-mask the###I-mask image###I-mask|move
+brighten###B-attribute the###B-mask image###I-mask|adjust
+sharpen###B-attribute|adjust
+crop###B-action the###I-mask edge###I-mask that###I-mask shows###I-mask the###I-mask door###I-mask|crop
+make###B-action the###I-mask image###O focus###B-attribute on###O the###I-mask television###I-mask in###I-mask the###I-mask room###I-mask|adjust
+make###B-action the###B-mask image###I-mask sepia###B-attribute or###O grayscale###B-attribute|apply
+the###I-comment wall###I-comment behind###I-comment the###I-comment tv###I-comment was###I-comment a###I-comment light###I-comment blue###I-comment|comment
+the###B-comment carpet###I-comment was###I-comment a###I-comment lighter###I-comment grey###I-comment|comment
+the###B-comment wooden###I-comment door###I-comment was###I-comment white###I-comment|comment
+the###B-comment tv###I-comment stand###I-comment was###I-comment brown###I-comment|comment
+the###B-comment tv###I-comment was###I-comment black###I-comment|comment
+make###B-action trim###B-mask by###I-mask the###I-intent door###I-mask white###B-attribute to###B-intent match###I-intent the###I-intent wall###I-intent|adjust
+remove###B-action extra###B-mask carpet###I-mask piece###I-mask to###O the###B-mask left###I-mask of###I-mask entertainment###I-mask system###I-mask|delete
+remove###B-action leftside###B-mask furniture###B-mask in###B-mask the###I-mask foreground###I-mask|delete
+remove###B-action rt###B-mask side###I-mask furtiture###B-mask in###B-mask foreground###I-mask|delete
+add###B-comment home###I-comment decor###I-comment wall###I-comment hanging###I-comment fleur###I-comment de###I-comment lis###I-comment center###I-comment focal###I-comment wall###I-comment|comment
+add###B-comment family###I-comment type###I-comment photos###I-comment at###I-comment 11###I-comment o###I-comment clock###I-comment position###I-comment of###I-comment fleur###I-comment de###I-comment lis###I-comment and###I-comment stager###I-comment 2###I-comment more###I-comment upwards###I-comment and###I-comment out###I-comment from###I-comment outer###I-comment upper###I-comment corner###I-comment repeat###I-comment for###I-comment 1###I-comment oclock###I-comment position###I-comment and###I-comment reverse###I-comment for###I-comment 4###I-comment and###I-comment 7###I-comment oclock###I-comment positions###I-comment|comment
+lighten###B-attribute the###O photo###B-mask|adjust
+increase###B-action saturation###B-attribute|adjust
+remove###B-action some###B-mask of###I-mask the###I-mask clutter###I-mask|delete
+make###B-action the###B-mask tv###I-mask screen###I-mask sharper###B-attribute|adjust
+blur###B-attribute the###B-mask background###I-mask|adjust
+change###B-action the###I-mask color###B-attribute of###O the###I-mask rings###I-mask on###I-mask the###I-mask plate###I-mask from###O blue###O to###O a###O bright###B-value orange###I-value|adjust
+change###B-action color###B-attribute of###O potatoes###B-mask to###O reddish###B-value purple###I-value|adjust
+lighten###B-attribute the###B-mask green###I-mask herbs###I-mask on###I-mask chicken###I-mask|adjust
+replace###B-action caluiflour###B-mask with###O broccoli###B-dstobject|replace
+add###B-action fork###B-mask knife###I-mask napkin###I-mask next###B-mask to###I-mask plate###I-mask|add
+crop###B-action the###I-mask photo###I-mask so###B-mask it###I-mask shows###I-mask the###I-mask food###I-mask up###I-mask close###I-mask|crop
+straighten###B-action the###B-mask photo###I-mask|rotate
+sharpen###B-attribute the###B-mask image###I-mask|adjust
+reduce###B-action noise###B-attribute in###O the###B-mask image###I-mask|adjust
+brighten###B-attribute the###B-mask image###I-mask|adjust
+remove###B-comment the###I-comment black###I-comment semi###I-comment circular###I-comment object###I-comment at###I-comment the###I-comment bottom###I-comment of###I-comment the###I-comment frame###I-comment|comment
+align###O the###B-mask wood###I-mask grain###I-mask vertically###B-value with###I-value the###B-mask frame###I-mask|rotate
+center###B-comment the###I-comment wooden###I-comment table###I-comment to###I-comment align###I-comment with###I-comment the###I-comment frame###I-comment|comment
+adjust###B-action the###I-intent brightness###B-attribute and###O contrast###B-attribute so###B-intent that###I-intent the###I-intent pale###I-intent white###I-intent or###I-intent creme###I-intent colors###I-intent stand###I-intent out###I-intent|adjust
+reduce###B-action the###I-intent red###B-attribute color###I-attribute level###I-attribute so###B-intent that###I-intent the###I-intent browns###I-intent or###I-intent beige###I-intent colors###I-intent in###I-intent the###I-intent image###I-intent stand###I-intent out###I-intent more###I-intent|adjust
+free###B-action select###I-action the###O grilled###B-mask chicken###I-mask breast###I-mask and###O adjust###B-action color###B-attribute levels###I-attribute|adjust
+don###B-comment t###I-comment include###I-comment other###I-comment objects###I-comment in###I-comment the###I-comment image###I-comment|comment
+move###B-comment to###I-comment a###I-comment better###I-comment table###I-comment darker###I-comment wood###I-comment|comment
+use###B-comment a###I-comment different###I-comment plate###I-comment more###I-comment vivid###I-comment|comment
+use###B-action more###B-value contrast###B-attribute|adjust
+distribute###B-comment the###I-comment food###I-comment a###I-comment little###I-comment better###I-comment|comment
+rotate###B-action about###B-value 15###I-value degrees###I-value counter###I-value clockwise###I-value|rotate
+crop###B-action as###I-value close###I-value as###I-value possible###I-value around###B-mask the###I-mask plate###I-mask itself###I-mask|crop
+darken###B-attribute the###I-mask ring###I-mask accents###I-mask on###I-mask the###I-mask plate###I-mask black###B-value if###I-value possible###I-value|adjust
+brighten###B-attribute photo###B-mask|adjust
+use###B-action clone###I-action tool###I-action to###O remove###O chip###B-mask from###I-mask plate###I-mask that###O is###O at###B-mask 10###I-mask o###I-mask clock###I-mask position###I-mask|clone
+increase###B-action the###B-mask photo###I-mask s###I-mask exposure###B-attribute by###B-value one###I-value step###I-value|adjust
+the###B-mask photo###I-intent is###I-intent not###I-intent focused###I-intent well###I-intent sharpen###B-attribute the###B-mask lines###I-mask of###I-mask door###I-mask and###I-mask cabinet###I-mask|adjust
+blur###B-attribute the###I-intent stairs###I-mask slightly###B-value to###I-intent make###I-intent them###I-intent appear###I-intent out###I-intent of###I-intent focus###I-intent it###I-intent will###I-intent re###I-intent direct###I-intent the###I-intent focus###I-intent to###I-intent the###I-intent room###I-intent|adjust
+clean###B-action up###O the###I-mask white###I-mask painted###I-mask line###I-mask on###I-mask the###I-mask turquoise###I-mask wall###I-mask|delete
+correct###B-action the###I-mask white###B-attribute balance###I-attribute of###O the###I-mask ceiling###I-mask area###I-mask above###I-mask the###I-mask door###I-mask to###B-intent make###I-intent it###I-intent less###I-intent green###I-intent|adjust
+remove###B-action some###B-value grain###B-mask in###I-mask the###I-mask shadows###I-mask they###B-intent re###I-intent a###I-intent bit###I-intent too###I-intent grainy###I-intent|delete
+please###O change###B-action the###B-mask color###B-attribute of###O the###B-mask wall###I-mask to###O a###O rich###B-value turquiose###I-value blue###I-value|adjust
+behind###B-mask the###I-mask stove###I-mask please###O add###B-action a###O backsplash###B-mask the###I-mask width###I-mask of###I-mask the###I-mask stove###I-mask and###I-mask the###I-mask height###I-mask from###I-mask stove###I-mask top###I-mask to###I-mask cabinet###I-mask bottom###I-mask small###I-mask tiles###I-mask jemstone###I-mask multi###I-mask color###I-mask|add
+leftside###B-mask of###I-mask the###I-mask pic###I-mask darken###B-attribute the###I-mask wood###B-mask of###I-mask the###I-mask stairs###I-mask to###O an###O ebony###B-value black###I-value|adjust
+leftside###B-mask please###O darken###B-attribute the###O microwave###B-mask stand###I-mask to###O ebony###B-value black###I-value|adjust
+left###B-mask side###I-mask next###I-mask to###I-mask door###I-mask frame###I-mask remove###B-action towel###I-mask and###I-mask towel###I-mask holder###I-mask|delete
+please###O change###B-action trim###B-mask around###I-mask doors###I-mask to###O same###B-value turquoise###I-value color###B-attribute as###B-value wall###I-value|adjust
+the###I-intent photo###I-intent looks###I-intent tilted###I-intent rotate###B-action it###O clockwise###B-value so###B-intent the###I-intent lines###I-intent are###I-intent straight###I-intent|rotate
+there###O are###O blown###O out###O highlights###B-attribute in###B-mask the###I-mask window###I-mask bring###B-action down###B-value the###I-mask highlights###B-attribute in###B-mask that###O area###O|adjust
+lighten###B-action the###I-mask exposure###B-attribute a###B-value bit###I-value (###B-mask except###I-mask in###I-mask the###I-mask window###I-mask )###I-mask|adjust
+increase###B-action the###O saturation###B-attribute especially###B-value for###O the###O reds###B-value and###O blues###B-value|adjust
+sharpen###B-attribute the###I-intent photo###I-mask so###B-intent the###I-intent details###I-intent are###I-intent clearer###I-intent|adjust
+the###B-mask teal###I-mask and###I-mask white###I-mask wall###I-mask is###O very###O dull###O make###B-action it###O a###B-value brighter###I-value shade###I-value of###I-value teal###I-mask|adjust
+the###I-mask white###I-mask line###I-mask on###I-mask the###I-mask teal###I-mask wall###I-mask has###O very###O sloppy###O edges###I-mask make###B-action the###I-mask edges###I-mask of###I-mask the###I-mask white###I-mask line###I-mask more###B-value precise###I-value and###I-value crisp###I-value|other
+the###I-intent details###I-intent of###I-intent the###I-intent stove###I-intent and###I-intent cabinet###I-intent area###I-intent are###I-intent very###I-intent dull###I-intent sharpen###B-attribute the###I-intent image###I-mask so###B-intent that###I-intent the###I-intent time###I-intent on###I-intent the###I-intent oven###I-intent and###I-intent letters###I-intent on###I-intent the###I-intent bowls###I-intent can###I-intent be###I-intent read###I-intent with###I-intent ease###I-intent|adjust
+there###B-mask is###I-intent a###I-mask bag###I-mask or###I-mask something###I-mask hanging###I-mask to###I-intent the###I-intent left###I-mask of###I-mask the###I-intent door###I-mask it###B-intent is###I-intent very###I-intent distracting###I-intent to###I-intent the###I-intent eye###I-intent so###O i###O would###O crop###B-action it###B-intent out###B-value|crop
+the###I-mask light###I-mask outside###I-mask the###I-mask viewing###I-mask window###I-mask of###I-mask the###I-mask door###I-mask is###I-intent too###O bright###O i###O would###O make###B-action that###O area###O duller###B-attribute so###B-intent you###I-intent can###I-intent see###I-intent what###I-intent is###I-intent outside###I-mask the###I-mask door###I-mask|adjust
+lighten###B-attribute the###B-mask photo###I-mask|adjust
+darken###B-attribute the###O window###B-mask|adjust
+darken###B-attribute the###O stairs###B-mask|adjust
+sharpen###B-attribute the###O image###B-mask|adjust
+increase###B-action saturation###B-attribute|adjust
+auto###B-attribute enhance###I-attribute|apply
+brigher###B-attribute filter###I-attribute|apply
+increase###B-action tint###B-attribute|adjust
+increase###B-action saturation###B-attribute|adjust
+increase###B-action brightness###B-attribute|adjust
+focus###B-intent the###B-mask photo###I-intent on###I-intent the###B-mask zebras###I-intent by###O clarifying###B-attribute the###B-mask image###I-mask|adjust
+zoom###B-action out###B-value from###O the###I-intent picture###I-mask a###B-value little###I-value bit###I-value so###B-intent more###I-intent of###I-intent the###I-intent environment###I-intent can###I-intent be###I-intent captured###I-intent|zoom
+the###B-mask background###I-intent is###I-intent very###I-intent blurry###I-intent the###B-mask grass###I-mask should###O have###B-action higher###B-value contrast###B-attribute|adjust
+add###B-action sharpness###B-attribute to###O the###B-mask image###I-mask so###B-intent i###I-intent can###I-intent distinguish###I-intent between###I-intent lines###I-intent better###I-intent|adjust
+brighten###B-attribute the###B-mask areas###I-mask where###I-mask there###I-mask are###I-mask shadows###I-mask|adjust
+all###B-comment the###I-comment zebras###I-comment faces###I-comment are###I-comment not###I-comment visible###I-comment in###I-comment this###I-comment photo###I-comment|comment
+their###B-comment stripes###I-comment are###I-comment brownish###I-comment colored###I-comment and###I-comment could###I-comment focus###I-comment more###I-comment on###I-comment the###I-comment vividness###I-comment of###I-comment the###I-comment white###I-comment and###I-comment black###I-comment|comment
+the###I-comment picture###I-comment could###I-comment show###I-comment what###I-comment the###I-comment zebras###I-comment are###I-comment focused###I-comment on###I-comment|comment
+the###B-intent zoom###I-intent angle###I-intent could###I-intent be###I-intent more###I-value pronounced###I-intent zebras###B-mask could###I-intent be###I-intent zoomed###B-action in###B-value on###I-value a###I-value bit###I-value more###I-value|zoom
+show###O less###O of###O the###I-mask grass###I-mask in###I-mask the###I-mask background###I-mask could###O crop###B-action to###O zoom###O in###I-mask more###O|crop
+increase###B-action the###O contrast###B-attribute|adjust
+lighten###B-attribute the###B-mask zebras###I-mask|adjust
+increase###B-action the###O white###B-attribute|adjust
+decrease###B-action the###I-mask glare###B-mask on###I-mask top###I-mask of###I-mask the###I-mask zebras###I-mask ears###I-mask|adjust
+apply###B-action a###O gaussian###B-attribute blur###I-attribute to###B-mask the###I-mask background###I-mask|apply
+define###B-action the###I-mask line###B-mask of###I-mask the###I-mask mountains###I-mask more###I-intent make###B-intent them###I-intent more###I-intent crisp###I-intent|adjust
+remove###B-action the###O barbed###B-mask wire###I-mask fence###I-mask from###O photo###B-mask|delete
+make###B-action the###B-mask sky###I-mask a###O brighter###B-value blue###B-attribute|adjust
+focus###B-attribute more###B-value on###O the###B-mask horses###I-mask|adjust
+brighten###B-attribute the###I-mask snow###B-mask on###I-mask the###I-mask mountain###I-mask top###I-mask|adjust
+make###B-action the###I-intent shadows###I-mask darker###B-attribute so###B-intent they###I-intent reflect###I-intent well###I-intent off###I-intent of###I-intent the###I-intent other###I-intent zebras###I-intent|adjust
+saturate###B-action the###B-mask colors###B-attribute of###O the###B-mask zebras###I-mask bodies###I-mask|adjust
+lessen###B-action the###I-mask blur###B-attribute of###I-mask the###I-mask tail###I-mask of###I-mask the###I-mask zebra###I-mask on###I-mask the###I-mask right###I-mask|adjust
+improve###B-action the###O quality###B-attribute of###O hay###B-mask or###I-mask grass###I-mask in###I-mask background###I-mask|adjust
+darken###B-attribute the###B-mask zebras###I-mask faces###I-mask|adjust
+it###O needs###B-action focus###B-attribute or###O sharpening###B-attribute|adjust
+add###B-action some###B-value brightness###B-attribute|adjust
+lighten###B-action up###B-value the###O contrast###B-attribute as###O well###O|adjust
+add###B-action vivid###B-value lightening###B-attribute to###O it###O so###B-intent the###I-intent pizza###I-intent pie###I-intent colors###I-intent can###I-intent pop###I-intent out###I-intent|adjust
+have###B-comment the###I-comment subject###I-comment in###I-comment the###I-comment picture###I-comment focus###I-comment his###I-comment eyes###I-comment to###I-comment the###I-comment camera###I-comment|comment
+i###O would###O brighten###B-attribute up###B-value the###O picture###B-mask it###B-intent is###I-intent pretty###I-intent dark###I-intent|adjust
+try###B-comment to###I-comment have###I-comment a###I-comment focus###I-comment clear###I-comment i###I-comment ca###I-comment nt###I-comment tell###I-comment what###I-comment i###I-comment should###I-comment be###I-comment looking###I-comment at###I-comment the###I-comment pizza###I-comment or###I-comment the###I-comment man###I-comment|comment
+make###B-action it###O not###B-value so###I-value blurry###B-attribute|adjust
+edit###B-action out###I-action the###I-mask man###B-mask walking###I-mask through###I-mask the###I-mask background###I-mask|delete
+the###I-mask light###I-mask in###I-mask the###I-mask windows###I-mask is###O so###O bright###O so###O i###O would###O try###O to###O darken###B-attribute those###O areas###O a###B-value bit###I-value|adjust
+take###B-action out###I-action the###I-mask green###B-mask letters###I-mask on###I-mask the###I-mask phone###I-mask case###I-mask it###B-intent would###I-intent be###I-intent better###I-intent all###I-intent white###I-intent|delete
+lighten###B-attribute the###I-mask face###B-mask of###I-mask the###I-mask main###I-mask person###I-mask|adjust
+sharpen###B-attribute the###I-mask face###B-intent of###I-mask the###I-mask main###I-mask person###I-mask face###B-intent is###I-intent blurry###I-intent|adjust
+tilt###B-action entire###B-mask image###I-mask so###B-intent it###I-intent s###I-intent not###I-intent slanted###I-intent|rotate
+darken###B-attribute the###B-mask windows###I-mask there###B-intent is###I-intent too###I-intent much###I-intent light###I-intent coming###I-intent in###I-intent|adjust
+make###B-action the###I-mask woman###B-mask who###I-mask is###I-mask the###I-mask main###I-mask person###I-mask in###I-value the###I-mask picture###I-mask more###B-value in###I-value focus###B-attribute less###B-intent blurry###I-intent|adjust
+sharpen###B-action the###O focus###B-attribute on###O the###O central###B-mask person###I-mask and###O fade###B-attribute the###O backgroun###B-mask|adjust
+the###I-intent plant###I-intent on###I-intent the###I-intent left###I-intent looks###I-intent like###I-intent pixels###I-intent sharpen###B-attribute the###I-intent image###B-mask|adjust
+the###I-mask man###B-mask standing###I-mask in###I-mask the###I-mask background###I-mask wearing###I-mask a###I-mask white###I-mask shirt###I-mask is###O blurry###B-attribute make###B-action that###O less###B-value blurry###B-attribute|adjust
+straighten###B-action the###O picture###B-mask it###B-intent seems###I-intent crooked###I-intent|rotate
+the###I-intent photo###I-intent is###I-intent blurry###I-intent if###O you###O could###O make###B-action it###B-intent clear###B-attribute and###O more###B-value focused###B-attribute it###B-intent would###I-intent be###I-intent easier###I-intent on###I-intent the###I-intent eyes###I-intent|adjust
+the###B-mask room###I-mask in###O kind###O of###O dark###O it###O would###O be###O better###O if###O it###O was###O brighten###B-attribute up###B-value|adjust
+the###B-comment pizza###I-comment looks###I-comment plain###I-comment if###I-comment it###I-comment had###I-comment more###I-comment toppings###I-comment and###I-comment cheese###I-comment on###I-comment top###I-comment it###I-comment would###I-comment look###I-comment more###I-comment desirable###I-comment|comment
+you###O could###O crop###B-action out###B-value the###I-intent guy###B-intent in###I-intent the###I-intent right###I-intent backside###I-intent he###I-intent doesn###I-intent t###I-intent look###I-intent like###I-intent he###I-intent s###I-intent having###I-intent a###I-intent good###I-intent time###I-intent|crop
+painting###B-action the###I-mask nails###B-mask on###I-mask the###I-mask hands###I-mask holding###I-mask the###I-mask phone###I-mask a###I-intent light###B-mask pink###I-mask would###B-intent add###I-intent a###I-intent more###I-intent classy###I-intent look###I-intent|add
+add###B-action a###O vibrant###B-mask rainbow###I-mask to###B-mask the###I-mask sky###I-mask|add
+please###O make###B-action the###O left###B-mask and###I-mask right###I-mask front###I-mask facing###I-mask driver###I-mask windows###I-mask more###B-value shiny###B-attribute|adjust
+see###O the###B-mask chrome###B-mask side###I-mask view###I-mask mirror###I-mask how###O about###O add###B-action a###B-mask slight###I-mask starburst###I-mask to###B-intent the###B-mask metal###I-mask to###B-intent make###I-intent it###I-intent more###I-intent glossy###I-intent|add
+increase###B-action the###I-mask intensity###B-attribute of###O the###I-mask blue###I-mask asterisk###I-mask logo###I-mask symbol###I-mask above###I-mask the###I-mask word###I-mask metro###I-mask|adjust
+remove###B-action the###I-intent truck###B-mask on###I-intent the###I-intent left###I-mask side###I-mask of###I-mask the###I-intent photo###I-mask so###B-intent all###I-intent the###I-intent focus###I-intent is###I-intent on###I-intent the###I-intent bus###I-intent|delete
+add###B-action some###B-mask passengers###I-mask waiting###I-mask on###I-mask the###I-mask bus###I-mask or###O add###B-action some###B-mask silhouettes###I-mask of###I-mask people###I-mask standing###I-mask up###I-mask inside###I-mask the###I-mask bus###I-mask as###I-mask if###I-mask the###I-mask vehicle###I-mask is###I-mask over###I-mask filled###I-mask during###I-mask rush###I-mask hour###I-mask thank###O you###O once###O again###O for###O letting###O me###O help###O you###O|add
+take###B-action out###I-action the###B-mask sign###I-mask top###I-mask left###I-mask|delete
+brighten###B-attribute the###B-mask sky###I-mask|adjust
+increase###B-action the###O whites###B-attribute|adjust
+increase###B-action the###O contrast###B-attribute|adjust
+increase###B-action the###O saturation###B-attribute|adjust
+less###B-value whitey###B-attribute bus###B-mask|adjust
+brighter###B-attribute sky###B-mask|adjust
+clean###O the###O windows###B-mask remove###B-action reflection###B-mask|delete
+don###B-comment t###I-comment enhance###I-comment advertising###I-comment|comment
+more###B-value red###B-attribute|adjust
+change###B-action add###I-dstobject on###I-mask side###I-mask of###I-mask bus###I-mask to###O something###B-dstobject more###I-dstobject family###I-dstobject orientated###I-dstobject perhaps###I-dstobject an###I-dstobject add###I-dstobject for###I-dstobject a###I-dstobject local###I-dstobject zoo###I-dstobject|replace
+soften###B-action up###O harshness###B-attribute of###O entire###B-mask photo###I-mask|adjust
+clean###O up###O street###B-mask make###B-action a###O darker###B-value grey###B-attribute|adjust
+add###B-action foliage###B-mask on###O all###B-mask of###I-mask the###I-mask trees###I-mask|add
+add###B-action sunlight###B-mask and###O blue###B-mask skys###I-mask|add
+clean###B-action up###I-action outside###B-mask of###I-mask bus###I-mask to###B-intent become###I-intent more###I-intent appealing###I-intent|other
+lighten###B-action the###O hue###B-attribute|adjust
+make###B-action colors###B-attribute more###B-value vibrant###I-value|adjust
+crop###B-action image###B-mask so###B-intent that###I-intent bus###I-intent is###I-intent straight###I-intent|crop
+sharpen###B-attribute the###O image###B-mask|adjust
+adjust###B-action the###O grain###B-attribute in###B-mask photo###I-mask|adjust
+take###B-action out###I-action the###I-mask green###B-mask pole###I-mask to###I-mask the###I-mask left###I-mask|delete
+increase###B-action the###O contrast###B-attribute|adjust
+increase###B-action the###O color###B-attribute saturation###I-attribute|adjust
+add###B-action a###O warm###B-value hue###B-attribute to###O the###B-mask image###I-mask|adjust
+make###B-action the###B-mask sky###I-mask blue###B-attribute as###B-intent a###I-intent contrast###I-intent to###I-intent subject###I-intent|adjust
+change###B-action the###B-mask color###B-attribute of###O the###B-mask sky###I-mask into###O a###O bright###B-value blue###I-value|adjust
+crop###B-action out###B-value the###I-mask green###B-mask pole###I-mask on###I-mask the###I-mask left###I-mask of###I-mask the###I-mask image###I-mask|crop
+slightly###B-value enhance###B-action the###B-mask contrast###B-attribute on###O the###B-mask full###I-mask image###I-mask|adjust
+crop###B-action about###B-value half###I-value an###I-value inch###I-value from###O the###I-intent bottom###I-mask to###B-intent make###I-intent the###I-intent men###I-intent the###I-intent central###I-intent focus###I-intent|crop
+make###B-action each###B-mask of###I-intent their###I-mask shirts###I-mask a###O clear###B-value white###I-value color###B-attribute (###B-intent some###I-intent of###I-intent them###I-intent appear###I-intent dirty###I-intent )###I-intent|adjust
+increase###B-action the###O sharpness###B-attribute by###O around###B-value 10###I-value 15###I-value|adjust
+shade###B-attribute the###I-intent background###B-mask a###B-value little###I-value to###B-intent make###I-intent the###I-intent riders###I-intent stand###I-intent out###I-intent some###I-intent more###I-intent|adjust
+whiten###B-attribute the###O uniforms###B-mask if###O possible###O some###I-intent are###I-intent white###I-intent and###I-intent some###I-intent look###I-intent a###I-intent little###I-intent grey###I-intent because###I-intent of###I-intent shadowing###I-intent|adjust
+if###O possible###O darken###B-attribute or###O remove###B-action the###I-intent street###B-mask light###I-mask in###I-mask the###I-intent lower###I-mask left###I-mask corner###I-mask it###B-intent draws###I-intent attention###I-intent away###I-intent from###I-intent the###I-intent riders###I-intent|delete
+edit###B-action the###I-intent water###B-mask in###I-mask the###I-intent street###I-mask also###B-intent takes###I-intent away###I-intent from###I-intent the###I-intent riders###I-intent|delete
+outline###B-attribute around###B-mask all###I-mask riders###I-mask and###I-mask participants###I-mask until###I-mask you###I-mask get###I-mask to###B-intent the###I-mask road###I-mask railing###I-mask to###B-intent remove###I-intent background###I-intent clutter###I-intent|adjust
+edit###B-action out###I-action the###B-mask puddles###B-mask on###I-mask the###B-mask roadway###I-mask and###O make###B-action the###B-mask surface###I-mask uniform###B-value|adjust
+select###B-action all###B-value the###I-intent red###B-attribute and###O increase###B-action color###B-attribute balance###I-attribute to###B-intent make###I-intent the###I-intent reds###I-intent pop###I-intent out###I-intent more###I-intent in###I-intent the###I-intent image###I-intent|adjust
+increase###B-action contrast###B-attribute setting###O for###O the###B-mask entire###I-mask image###I-mask to###B-intent introduce###I-intent some###I-intent shadow###I-intent in###I-intent background###I-intent and###I-intent highlight###I-intent colors###I-intent|adjust
+replace###B-action the###I-mask background###I-mask above###B-mask the###I-mask road###I-mask railing###I-mask with###O sky###B-dstobject clone###B-action from###O above###B-mask the###I-mask buildings###I-mask|clone
+blur###B-attribute background###B-mask|adjust
+sharpen###B-attribute puddles###B-mask to###B-intent see###I-intent if###I-intent any###I-intent reflection###I-intent|adjust
+highlight###B-attribute the###B-mask faces###I-mask|adjust
+make###B-action the###I-intent costumes###I-mask colors###B-attribute stand###B-intent out###I-intent more###I-intent against###I-intent the###I-intent grey###I-intent|adjust
+up###B-action the###B-mask color###B-attribute on###O the###B-mask motorcycles###I-mask|adjust
+remove###B-action the###I-mask glare###B-mask around###I-mask the###I-mask lights###I-mask|delete
+remove###B-action the###I-mask yellow###B-mask color###I-mask around###I-mask the###I-mask puddles###I-mask|delete
+remove###B-action the###I-mask man###B-mask standing###I-mask next###I-mask to###I-mask the###I-mask train###I-mask|delete
+add###B-action a###B-value little###I-value deeper###I-value blue###B-attribute to###O the###B-mask train###I-mask|add
+remove###B-action the###I-mask glare###B-mask on###I-mask the###I-mask train###I-mask caused###I-mask by###I-mask the###I-mask lights###I-mask|delete
+increase###B-action contrast###B-attribute|adjust
+increase###B-action saturation###B-attribute|adjust
+crop###B-action the###B-mask image###I-mask|crop
+take###B-action out###I-action the###O building###B-mask top###I-mask left###I-mask|delete
+blur###B-attribute the###B-mask background###I-mask|adjust
+the###B-comment image###I-comment is###I-comment too###I-comment big###I-comment|comment
+the###B-comment photo###I-comment is###I-comment too###I-comment bright###I-comment|comment
+the###B-comment photo###I-comment is###I-comment too###I-comment magnified###I-comment|comment
+nothing###B-comment is###I-comment really###I-comment in###I-comment focus###I-comment|comment
+the###B-mask image###I-mask needs###O to###O be###O made###B-action more###B-value sharper###B-attribute|adjust
+darken###B-attribute the###O sky###B-mask sun###I-mask behind###I-mask trees###I-mask|adjust
+edit###B-action out###I-action remove###I-action crumbs###B-mask to###B-intent clean###I-intent the###I-intent table###I-intent up###I-intent|delete
+tighten###B-action focus###I-intent on###O the###I-mask people###I-mask paying###B-mask attention###I-mask to###I-mask the###I-mask people###I-mask in###I-mask the###I-mask back###I-mask who###B-intent are###I-intent more###I-intent out###I-intent of###I-intent focus###I-intent|adjust
+add###B-action a###B-value little###I-value contrast###B-attribute to###I-intent bring###I-intent depth###I-intent to###I-intent the###I-intent photo###I-intent|adjust
+remove###B-action edit###I-action out###I-action the###I-mask plant###B-mask directly###I-mask in###I-mask the###I-mask middle###I-mask behind###B-mask the###I-mask man###I-mask in###I-mask red###I-mask it###B-intent s###I-intent very###I-intent distracting###I-intent|delete
+crop###B-action out###B-value bright###B-mask sunlight###I-mask in###I-mask background###I-mask it###B-intent is###I-intent distracting###I-intent from###I-intent the###I-intent foreground###I-intent|crop
+crop###B-action the###I-value photo###I-mask around###I-mask the###I-value people###I-mask at###I-mask the###I-value table###I-mask using###B-value the###I-value rule###I-value of###I-value thirds###I-value|crop
+increase###B-action color###B-attribute saturation###I-attribute to###B-intent reduce###I-intent the###I-intent effects###I-intent of###I-intent shadows###I-intent on###I-intent the###I-intent foreground###I-intent|adjust
+increase###B-action color###B-attribute contrast###I-attribute to###B-intent brighten###I-intent the###I-intent colors###I-intent in###I-intent the###I-intent foreground###I-intent and###I-value make###I-intent the###I-intent photo###I-intent more###I-intent engaging###I-intent especially###B-value red###I-value and###I-value blue###I-value|adjust
+brighten###B-attribute skin###B-mask tone###I-mask colors###I-mask to###B-intent reduce###I-intent the###I-intent effects###I-intent of###I-intent shadows###I-intent and###I-intent make###I-intent the###I-intent foreground###I-intent the###I-intent focus###I-intent of###I-intent the###I-intent photo###I-intent|adjust
+please###O crop###B-action photo###I-intent to###B-intent decrrease###I-intent the###I-intent glare###I-intent in###I-intent the###I-intent photo###I-intent|crop
+please###O enhance###B-action the###B-mask color###B-attribute in###O the###B-mask photo###I-mask as###O it###B-intent seems###I-intent faded###I-intent|adjust
+no###B-comment other###I-comment enhancements###I-comment needed###I-comment|comment
+no###B-comment other###I-comment enhancements###I-comment needed###I-comment|comment
+no###B-comment other###I-comment enhancements###I-comment needed###I-comment|comment
+please###O perform###O a###O face###B-mask swap###B-action using###O the###I-mask man###B-mask in###I-mask the###I-mask yellow###I-mask shirt###I-mask and###O the###I-mask man###B-mask in###I-mask the###I-mask blue###I-mask black###I-mask polo###I-mask|swap
+would###O you###O open###B-action the###I-mask door###B-mask to###I-mask the###I-mask vehicle###I-mask behind###I-mask them###I-mask|move
+turn###B-action the###I-mask door###B-mask knobs###I-mask in###I-mask the###I-mask image###I-mask so###B-intent they###I-intent are###I-intent facing###I-intent downwards###I-intent|rotate
+please###O clean###B-action the###I-mask crumbs###B-mask off###B-mask of###I-mask the###I-mask clear###I-mask plate###I-mask next###I-mask to###I-mask the###I-mask woman###I-mask|delete
+please###O make###B-action the###O man###B-mask in###I-mask red###I-mask frown###B-dstobject rather###O than###O smile###B-mask|replace
+edit###B-action out###I-action the###I-mask water###B-mask on###I-mask the###I-mask far###I-mask right###I-mask|delete
+increase###B-action the###O contrast###B-attribute|adjust
+add###B-action a###O gaussian###B-attribute blur###I-attribute to###O the###I-mask grass###I-mask in###I-mask the###I-mask background###I-mask|apply
+lighten###B-attribute the###O bears###B-mask eyes###I-mask|adjust
+add###B-action a###O yellow###B-value hue###B-attribute|adjust
+make###B-action the###I-mask yellow###B-mask flowers###I-mask in###I-mask the###I-mask background###I-mask more###B-value saturated###B-attribute|adjust
+darken###B-action the###B-mask color###B-attribute of###O the###B-mask bears###I-mask fur###I-mask and###I-mask snout###I-mask|adjust
+emphasize###B-action the###B-mask color###B-attribute of###O the###B-mask bears###I-mask eyes###I-mask|adjust
+the###B-mask color###B-attribute of###O the###B-mask water###I-mask would###O be###O less###O dull###O if###O more###B-value color###B-attribute was###O added###B-action as###O well###O as###O the###B-mask colors###O in###B-mask the###B-mask reflection###I-mask|add
+improve###B-action quality###B-attribute of###O bears###B-mask body###I-mask and###I-mask face###I-mask|adjust
+take###B-action out###I-action the###I-mask red###B-mask eye###I-mask of###I-mask the###I-mask bear###I-mask on###I-mask the###I-mask right###I-mask|delete
+touvh###B-action up###I-action the###I-mask bear###I-mask on###I-mask the###I-mask right###I-mask nose###I-mask|adjust
+enhance###B-action the###B-mask color###B-attribute of###O the###B-mask bear###I-mask s###I-mask fur###I-mask|adjust
+enahnce###B-action the###I-mask contrast###B-attribute between###B-mask the###I-mask bear###I-mask and###I-mask grass###I-mask|adjust
+crop###B-action out###B-value the###I-mask cement###I-mask ledge###I-mask at###I-mask the###I-mask bottom###I-mask of###I-mask the###I-mask picture###I-mask so###B-intent it###I-intent does###I-intent nt###I-intent look###I-intent like###I-intent they###I-intent are###I-intent in###I-intent a###I-intent zoo###I-intent|crop
+the###B-mask image###I-mask must###B-action be###O illuminated###B-attribute|adjust
+remove###B-action the###I-mask sauce###B-mask over###I-mask the###I-mask bread###I-mask|delete
+remove###B-action the###I-mask second###B-mask seat###I-mask where###I-mask the###I-mask woman###I-mask s###I-mask hand###I-mask is###I-mask seen###I-mask|delete
+clear###B-action food###B-mask that###I-mask comes###I-mask out###I-mask of###I-mask the###I-mask plate###I-mask|delete
+light###B-attribute the###B-mask bread###I-mask|adjust
+crop###B-action the###I-intent right###I-mask side###I-mask of###I-mask the###I-intent photo###I-mask so###B-intent the###I-intent cup###I-intent in###I-intent the###I-intent back###I-intent isn###I-intent t###I-intent in###I-intent it###I-intent|crop
+add###B-action more###B-value color###B-attribute to###O the###B-mask sandwhich###I-mask and###I-mask sauce###I-mask|adjust
+make###B-action the###I-intent plate###I-mask a###B-value little###I-value less###I-value bright###B-attribute it###I-intent looks###I-intent like###I-intent the###I-intent flash###I-intent hit###I-intent it###I-intent full###I-intent force###I-intent|adjust
+lighten###B-attribute the###I-intent background###I-mask a###B-value little###I-value too###O so###B-intent the###I-intent photo###I-intent looks###I-intent less###I-intent dark###I-intent and###I-intent more###I-intent natural###I-intent|adjust
+add###B-action more###B-value orange###B-attribute to###B-mask the###I-mask drinks###I-mask|add
+reduce###B-action highlight###B-attribute to###B-intent negate###I-intent glare###I-intent from###I-intent flash###I-intent|adjust
+plate###B-comment not###I-comment centered###I-comment in###I-comment image###I-comment nor###I-comment following###I-comment 1###I-comment 3rd###I-comment rule###I-comment|comment
+image###B-comment cropped###I-comment too###I-comment closely###I-comment show###I-comment more###I-comment foreground###I-comment and###I-comment more###I-comment of###I-comment the###I-comment table###I-comment|comment
+lighten###B-attribute shadows###B-mask in###I-mask background###I-mask and###I-mask table###I-mask|adjust
+saturate###B-action green###B-attribute by###O +###B-value 22###I-value to###B-intent make###I-intent the###I-intent peppers###I-intent pop###I-intent|adjust
+erase###B-action eliminate###I-action the###I-mask onion###B-mask ring###I-mask on###I-mask the###I-mask right###I-mask side###I-mask of###I-mask the###I-mask plate###I-mask|delete
+crop###B-action the###I-intent top###I-mask of###I-mask the###I-intent picture###I-mask to###B-intent eliminate###I-intent the###I-intent small###I-intent plate###I-intent hand###I-intent|crop
+erase###B-action eliminate###I-action the###I-mask beers###I-mask in###I-mask the###I-mask picture###I-mask|delete
+crop###B-action the###I-mask right###I-mask hand###I-mask side###I-mask up###I-mask until###I-mask the###I-mask white###I-mask plate###I-mask|crop
+erase###B-action eliminate###I-action the###I-mask dressing###B-mask on###I-mask the###I-mask top###I-mask of###I-mask the###I-mask sauce###I-mask cup###I-mask|delete
+crop###B-action out###B-value top###B-mask plate###I-mask|crop
+slightly###B-value tilt###B-action the###B-mask image###I-mask counter###B-value clockwise###I-value|rotate
+brighten###B-attribute photo###I-intent to###B-intent show###I-intent more###I-intent grain###I-intent in###I-intent table###I-intent and###I-intent clean###I-intent the###I-intent photo###I-intent|adjust
+add###B-action a###O black###B-mask border###I-mask around###I-mask photo###I-mask|add
+adjust###B-action the###I-intent photo###I-mask so###B-intent that###I-intent only###I-intent the###I-intent plate###I-intent is###I-intent in###I-intent focus###I-intent with###I-intent the###I-intent food###I-intent|adjust
+use###B-comment a###I-comment different###I-comment more###I-comment aesthetically###I-comment pleasing###I-comment sauce###I-comment doesn###I-comment t###I-comment look###I-comment very###I-comment appetizing###I-comment|comment
+put###B-comment the###I-comment sandwich###I-comment front###I-comment and###I-comment center###I-comment of###I-comment the###I-comment picture###I-comment|comment
+show###B-comment more###I-comment of###I-comment the###I-comment ingredients###I-comment of###I-comment the###I-comment sandwich###I-comment in###I-comment the###I-comment photo###I-comment make###I-comment my###I-comment mouth###I-comment water###I-comment|comment
+increase###B-action the###I-mask light###B-attribute on###B-mask the###I-mask rings###I-mask to###B-intent make###I-intent them###I-intent look###I-intent crispier###I-intent they###I-intent just###I-intent look###I-intent greasy###I-intent|adjust
+get###B-action rid###I-action of###O the###I-intent persons###B-mask random###I-mask hand###I-mask in###I-mask the###I-intent back###I-mask it###B-intent takes###I-intent away###I-intent from###I-intent the###I-intent picture###I-intent|delete
+increase###B-action exposure###B-attribute to###B-intent eliminate###I-intent darkness###I-intent especially###B-mask around###I-mask the###I-mask center###I-mask|adjust
+crop###B-action to###B-intent focus###I-intent on###I-intent the###I-intent food###I-intent the###I-intent green###I-intent shirt###I-intent in###I-intent top###I-intent left###I-intent is###I-intent distrcating###I-intent|crop
+rotate###B-action to###I-intent straighten###I-intent the###I-intent table###I-intent edge###I-intent to###I-intent be###I-intent completely###I-intent flat###I-intent|rotate
+remove###B-action glare###B-mask on###I-mask the###I-mask cups###I-mask|delete
+make###B-action fingertips###B-mask of###I-mask man###I-mask in###I-mask the###I-mask background###I-mask less###B-value reddened###B-attribute|adjust
+remove###B-action the###O trash###B-mask|delete
+make###B-action it###O brighter###B-attribute|adjust
+focus###B-attribute on###O something###B-mask specific###I-mask|adjust
+photoship###B-action just###B-value about###I-value everything###B-mask|adjust
+sharper###B-attribute the###O photo###B-mask|adjust
+edit###B-action out###I-action the###I-mask crumbs###B-mask around###I-mask the###I-mask plate###I-mask on###I-mask the###I-mask table###I-mask|delete
+remove###B-action some###B-value of###I-mask the###I-mask blurry###B-mask portions###I-mask of###I-mask the###I-mask photo###I-mask like###I-mask the###I-mask person###I-mask to###I-mask the###I-mask left###I-mask|delete
+remove###B-action some###B-value of###I-value the###I-mask blemishes###B-mask on###I-mask the###I-mask hands###I-mask|delete
+brighten###B-attribute the###O background###B-mask|adjust
+enhance###B-action the###B-mask clarity###B-attribute of###O the###B-mask fish###I-mask|adjust
+remove###B-action whatever###B-mask the###I-mask green###I-mask blob###I-mask is###I-mask near###I-mask the###I-mask spoon###I-mask|delete
+color###B-attribute correct###B-action|adjust
+lighten###B-attribute the###I-mask edges###B-mask of###I-mask the###I-mask photo###I-mask|adjust
+crop###B-action the###B-mask photo###I-mask|crop
+white###B-attribute balance###I-attribute|adjust
+remove###B-action the###I-mask bread###I-mask in###I-mask the###I-mask bottom###I-mask right###I-mask|delete
+add###B-action white###B-mask ducks###I-mask to###I-mask the###I-mask pond###I-mask|add
+add###B-action a###B-mask couple###I-mask tall###I-mask buildings###I-mask in###I-mask the###I-mask background###I-mask on###I-mask the###I-mask left###I-mask|add
+shorten###B-action the###I-mask tree###I-mask branch###I-mask on###I-mask the###I-mask right###I-mask so###B-intent people###I-intent can###I-intent be###I-intent seen###I-intent|delete
+add###B-action a###I-mask kid###I-mask on###I-mask the###I-mask right###I-mask edge###I-mask with###I-mask a###I-mask small###I-mask sailboat###I-mask|add
+add###B-action a###B-mask seating###I-mask bench###I-mask near###I-mask the###I-mask red###I-mask tree###I-mask in###I-mask the###I-mask middle###I-mask|add
+crop###B-action out###B-value the###B-mask buildings###I-mask|crop
+blur###B-attribute the###B-mask background###I-mask|adjust
+add###B-action flowers###B-mask to###O the###I-mask tree###I-mask in###I-mask the###I-mask upper###I-mask right###I-mask corner###I-mask|add
+make###B-action the###O trees###B-mask more###B-value green###B-attribute and###O vibrant###B-attribute|adjust
+crop###B-action out###B-value the###I-intent people###I-mask (###B-intent they###I-intent take###I-intent away###I-intent from###I-intent the###I-intent serene###I-intent feeling###I-intent of###I-intent the###I-intent picture###I-intent )###I-intent|crop
+remove###B-action buildings###B-mask in###I-mask background###I-mask|delete
+pic###B-mask looks###O too###O grainy###B-attribute clear###B-action it###O up###B-value|adjust
+remove###B-action boat###B-mask in###I-mask lake###I-mask|delete
+remove###B-action tree###B-mask limbs###I-mask in###I-mask front###I-mask of###I-mask pic###I-mask|delete
+add###B-action ducks###B-mask in###I-mask lake###I-mask|add
+make###B-action sky###B-mask blue###B-attribute|adjust
+make###B-intent the###I-intent boat###I-intent in###I-intent the###I-intent water###I-intent more###I-intent visible###I-intent by###O removing###B-action the###I-intent leaves###B-mask which###I-mask are###I-mask obstructing###I-mask it###O|delete
+make###B-action the###B-mask water###I-mask appear###O clearer###B-attribute and###O cleaner###B-value|adjust
+remove###B-action the###I-mask buildings###B-mask from###I-mask the###I-mask background###I-mask|delete
+remove###B-action the###I-mask people###B-mask from###I-mask the###I-mask background###I-mask|delete
+clean###B-action up###I-action the###I-mask stray###B-mask tufts###I-mask of###I-mask grass###I-mask which###I-mask are###I-mask sprouting###I-mask from###I-mask the###I-mask sidewalk###I-mask on###I-mask the###I-mask right###I-mask hand###I-mask side###I-mask of###I-mask the###I-mask image###I-mask|delete
+the###B-comment image###I-comment is###I-comment too###I-comment big###I-comment|comment
+the###B-comment photo###I-comment is###I-comment too###I-comment bright###I-comment|comment
+the###B-comment image###I-comment is###I-comment not###I-comment centered###I-comment|comment
+nothing###B-comment is###I-comment really###I-comment in###I-comment focus###I-comment|comment
+the###B-mask image###I-mask needs###O to###O be###O made###B-action more###B-value sharper###B-attribute|adjust
+remove###B-action some###B-mask of###I-mask the###I-mask wires###I-mask|delete
+make###B-action the###O sky###B-mask blue###B-attribute|adjust
+increase###B-action resolution###B-attribute|adjust
+crop###B-action the###B-mask image###I-mask|crop
+increase###B-action the###I-mask focus###B-attribute on###B-mask the###I-mask text###I-mask|adjust
+make###B-action jacket###B-mask color###O more###B-value blue###B-attribute|adjust
+put###B-action more###B-mask light###I-mask on###I-mask skier###I-mask s###I-mask face###I-mask|add
+make###B-action red###B-mask of###I-mask clothing###I-mask stand###B-intent out###I-intent more###I-intent|adjust
+give###B-action the###B-mask snow###I-mask more###B-value brightness###B-attribute|adjust
+give###B-action more###B-value depth###B-attribute of###I-attribute field###I-attribute to###O snow###B-mask in###I-mask background###I-mask|adjust
+crop###B-action vertical###B-mask to###B-intent focus###I-intent on###I-intent the###I-intent person###I-intent|crop
+adjust###B-action blue###B-attribute in###O snow###B-mask background###I-mask to###I-intent get###I-intent to###I-intent a###I-intent truer###I-intent white###I-intent|adjust
+lighten###B-attribute the###I-mask face###I-mask and###I-mask front###I-mask of###I-mask the###I-mask person###I-mask|adjust
+darken###B-attribute shadows###B-mask of###I-mask skis###I-mask skier###I-mask to###I-intent add###I-intent more###I-intent depth###I-intent to###I-intent the###I-intent image###I-intent|adjust
+if###O it###O remains###O after###O cropping###O adjust###B-action the###I-intent patch###I-mask of###I-mask sky###I-mask in###I-mask the###I-intent corner###I-mask to###B-intent a###O truer###B-value blue###B-attribute to###B-intent contract###I-intent with###I-intent the###I-intent white###I-intent snow###I-intent|adjust
+more###B-action contrast###B-attribute (###B-intent it###I-intent s###I-intent currently###I-intent mostly###I-intent blues###I-intent and###I-intent whites###I-intent )###I-intent|adjust
+enlarge###B-action frame###B-mask of###I-mask photo###I-mask so###B-intent that###I-intent person###I-intent isn###I-intent t###I-intent chopped###I-intent off###I-intent at###I-intent the###I-intent hat###I-intent|adjust
+include###B-action something###B-mask besides###I-mask snow###I-mask and###I-mask sky###I-mask in###I-mask the###I-mask background###I-mask|add
+make###B-action the###I-mask different###I-mask colors###I-mask in###I-mask the###I-mask clothes###I-mask stand###B-intent out###I-intent more###I-intent|adjust
+edit###B-action out###I-action some###B-mask of###I-mask the###I-mask skiing###I-mask tracks###I-mask behind###I-mask the###I-mask person###I-mask|delete
+brighten###B-attribute the###B-mask photo###I-mask|adjust
+crop###B-action the###B-mask photo###I-mask for###B-intent better###I-intent composition###I-intent|crop
+adjust###B-action contrast###B-attribute to###B-intent improve###I-intent overall###I-intent color###I-intent|adjust
+blur###B-attribute background###B-mask to###B-intent improve###I-intent focus###I-intent on###I-intent person###I-intent|adjust
+add###B-action border###B-mask around###I-mask edges###I-mask|add
+please###O remove###B-action all###B-mask of###I-mask the###I-mask ski###I-mask tracks###I-mask except###I-mask for###I-mask those###I-mask which###I-mask belong###I-mask to###I-mask the###I-mask skier###I-mask in###I-mask the###I-mask image###I-mask|delete
+please###O make###B-action his###B-mask ski###I-mask blades###I-mask much###B-value wider###I-value than###I-value they###I-value are###I-value now###I-value|transform
+please###O make###B-action the###B-mask color###I-mask of###I-mask his###I-mask skin###I-mask tan###B-attribute|adjust
+please###O add###B-action fog###B-mask coming###I-mask from###I-mask his###I-mask mouth###I-mask which###I-mask spells###I-mask the###I-mask word###I-mask doom###I-mask|add
+please###O make###B-action one###B-mask of###I-mask the###I-mask ski###I-mask poles###I-mask into###O a###B-dstobject pole###I-dstobject arm###I-dstobject|replace
+the###I-intent focus###I-intent is###I-intent the###I-intent 2###I-intent animals###I-intent try###O deepening###B-action their###O color###B-attribute so###B-intent they###I-intent pop###I-intent against###I-intent the###I-intent grass###I-intent|adjust
+so###B-intent that###I-intent is###I-intent doesn###I-intent t###I-intent appear###I-intent they###I-intent are###I-intent on###I-intent a###I-intent road###I-mask and###I-intent are###I-intent in###I-intent the###B-mask wilderness###I-intent try###O to###O crop###B-action out###B-value most###I-value of###I-value the###B-mask gravel###I-mask road###I-mask|crop
+leave###O the###B-mask color###O of###O the###B-mask grass###I-mask the###B-mask same###O but###O try###O highly###B-value defining###B-attribute the###B-mask grass###I-mask strands###I-mask|adjust
+glassen###O the###B-mask eyes###I-mask because###B-intent they###I-intent are###I-intent obviously###I-intent focused###I-intent on###I-intent something###I-intent you###I-intent want###I-intent the###B-mask person###I-intent viewing###I-intent the###B-mask image###I-intent to###I-intent wonder###I-intent if###O you###I-intent can###O define###B-action the###B-mask eyes###I-mask more###B-value make###O them###O more###B-value glassy###B-value|adjust
+even###O attempt###O to###O define###B-action the###I-intent black###B-attribute on###B-mask the###I-intent animals###I-intent the###I-intent more###I-intent defined###I-intent the###I-intent animals###I-intent the###I-intent less###I-intent distracting###I-intent the###I-intent grass###I-intent will###I-intent be###I-intent|adjust
+add###B-action more###B-value contrast###B-attribute|adjust
+add###B-action more###B-value saturation###B-attribute|adjust
+tone###B-action down###B-value red###B-attribute cast###I-attribute|adjust
+blur###B-attribute the###I-intent background###I-mask with###O only###B-intent the###I-intent deer###I-intent in###I-intent focus###I-intent|adjust
+increase###B-action the###B-mask saturation###B-attribute on###O the###B-mask deer###I-mask to###B-intent make###I-intent them###I-intent pop###I-intent|adjust
+make###B-action the###O grass###B-mask more###B-value green###B-attribute|adjust
+add###B-action red###B-attribute tint###I-attribute to###O the###B-mask dirt###I-mask|adjust
+convert###B-action the###O photo###B-mask to###O black###B-attribute and###I-attribute white###I-attribute|adjust
+brighten###B-attribute grass###B-mask to###B-intent make###I-intent more###I-intent vibrant###I-intent green###I-intent|adjust
+sharpen###B-attribute deer###B-mask|adjust
+alter###B-action road###B-mask gravel###I-mask to###B-intent appear###I-intent more###I-intent like###I-intent dirt###I-intent|other
+blur###B-attribute background###B-mask to###I-intent bring###I-intent focus###I-intent to###I-intent animals###I-intent|adjust
+brighten###B-action colors###B-attribute of###O deer###B-mask to###B-intent appear###I-intent more###I-intent red###I-intent|adjust
+more###B-comment full###I-comment view###I-comment|comment
+day###B-comment time###I-comment|comment
+from###B-comment the###I-comment right###I-comment side###I-comment|comment
+from###B-comment the###I-comment left###I-comment side###I-comment|comment
+in###B-comment front###I-comment of###I-comment it###I-comment|comment
+eliminate###B-action shadows###B-mask on###I-mask riders###I-mask face###I-mask|delete
+change###B-action the###O horses###B-mask eye###I-mask position###I-mask|move
+background###B-comment shurbs###I-comment are###I-comment too###I-comment close###I-comment to###I-comment the###I-comment foreground###I-comment|comment
+edit###B-action tall###B-mask plants###I-mask around###I-mask riders###I-mask face###I-mask|delete
+they###B-comment are###I-comment distracting###I-comment|comment
+touch###B-action up###I-action riders###B-mask pants###I-mask|other
+i###O suggest###O cropping###B-action the###I-intent image###I-mask so###B-intent that###I-intent the###I-intent train###I-intent is###I-intent on###I-intent the###I-intent left###I-intent edge###I-intent of###I-intent the###I-intent photo###I-intent|crop
+adjust###B-action the###B-mask color###B-attribute of###O the###B-mask sky###I-mask to###O be###O more###B-value blue###I-value|adjust
+crop###B-action the###I-intent photo###I-intent so###B-intent that###I-intent the###I-intent bottom###I-intent of###I-intent the###I-intent train###I-intent is###I-intent on###I-intent the###I-intent bottom###I-intent edge###I-intent of###I-intent the###I-intent photo###I-intent|crop
+i###O suggest###O blurring###B-attribute the###I-intent trees###B-mask in###I-mask the###I-intent foreground###I-mask so###B-intent they###I-intent are###I-intent not###I-intent the###I-intent focus###I-intent of###I-intent the###I-intent image###I-intent|adjust
+sharpen###B-attribute the###I-intent skyline###I-mask in###I-mask the###I-intent background###I-mask so###B-intent that###I-intent it###I-intent is###I-intent the###I-intent focus###I-intent of###I-intent the###I-intent image###I-intent|adjust
+deepen###B-attribute the###I-intent shadows###I-mask so###B-intent the###I-intent building###I-intent shapes###I-intent in###I-intent the###I-intent city###I-intent are###I-intent less###I-intent foggy###I-intent|adjust
+crop###B-action from###B-value 1###B-mask 3###I-mask to###I-mask half###I-mask the###I-mask sky###I-mask|crop
+crop###B-action the###I-mask left###B-mask side###I-mask to###I-mask the###I-mask peak###I-mask of###I-mask the###I-mask half###I-mask roof###I-mask on###I-mask the###I-mask platform###I-mask|crop
+brighten###B-action the###O colors###B-attribute just###B-value a###I-value little###I-value|adjust
+possibly###O crop###B-action into###B-value the###I-mask edge###I-mask of###I-mask the###I-mask farthest###I-mask right###I-mask skyscraper###I-mask as###O well###O|crop
+needs###B-action to###O be###O more###B-value clear###B-attribute|adjust
+comes###B-comment out###I-comment slightly###I-comment blurry###I-comment|comment
+needs###B-action more###B-value color###B-attribute|adjust
+a###B-comment header###I-comment|comment
+would###B-comment like###I-comment to###I-comment see###I-comment more###I-comment faces###I-comment|comment
+needs###B-action more###B-mask sunshine###I-mask|add
+crop###B-action out###B-value the###B-mask side###I-mask buildings###I-mask and###I-mask focus###B-attribute on###O the###B-mask pedestrians###I-mask and###I-mask skyline###I-mask|adjust
+make###B-action black###B-attribute and###I-attribute white###I-attribute|adjust
+with###B-comment a###I-comment more###I-comment dynamic###I-comment contrast###I-comment|comment
+if###O it###O could###B-action be###I-intent less###B-value blurry###B-attribute that###B-intent would###I-intent be###I-intent great###I-intent|adjust
+remove###B-action the###I-mask i###I-mask heart###I-mask ny###I-mask on###I-mask the###I-mask bag###I-mask|delete
+crop###B-action out###B-value the###I-mask two###I-mask ladies###I-mask with###I-mask the###I-mask umbrellas###I-mask|crop
+remove###B-action man###B-mask from###I-mask left###I-mask side###I-mask of###I-mask photo###I-mask|delete
+change###B-action mom###B-mask s###I-mask skirt###I-mask to###O a###O brighter###B-value color###B-attribute so###B-intent it###I-intent contrasts###I-intent against###I-intent the###I-intent water###I-intent|adjust
+add###B-action people###B-mask next###I-mask to###I-mask the###I-mask boat###I-mask on###I-mask the###I-mask water###I-mask|add
+move###B-action green###B-mask post###I-mask to###B-mask the###I-mask left###I-mask|move
+extending###B-comment the###I-comment view###I-comment of###I-comment the###I-comment boats###I-comment and###I-comment activity###I-comment on###I-comment the###I-comment water###I-comment|comment
+change###B-action mom###B-mask s###I-mask shoe###I-mask color###B-attribute so###B-intent it###I-intent contrasts###I-intent more###I-intent with###I-intent the###I-intent road###I-intent and###I-intent her###I-intent leg###I-intent right###I-intent now###I-intent they###I-intent are###I-intent too###I-intent hard###I-intent to###I-intent see###I-intent|adjust
+add###B-action some###B-mask sort###I-mask of###I-mask scenery###I-mask outside###I-mask so###I-intent that###I-intent it###I-intent doesn###I-intent t###I-intent look###I-intent so###I-intent generic###I-intent such###B-value as###I-value trees###I-value|add
+sky###B-comment|comment
+etc###B-comment|comment
+improve###B-action the###B-mask general###I-mask photo###I-mask quality###B-attribute make###B-intent it###I-intent more###I-intent in###I-intent focus###I-intent|adjust
+put###B-action something###B-mask besides###I-mask the###I-mask audi###I-mask logo###I-mask on###I-mask the###I-mask screen###I-mask the###I-mask man###I-mask is###I-mask watching###I-mask|add
+make###O the###I-mask audi###I-mask logo###I-mask on###I-mask the###I-mask first###I-mask screen###I-mask pop###O more###O brighten###B-action the###I-mask colors###B-attribute and###O sharpen###B-attribute the###I-mask text###I-mask|adjust
