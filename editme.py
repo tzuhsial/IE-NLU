@@ -1,7 +1,7 @@
 """
 Usage:
     editme.py train [options]
-    editme.py test [options]
+    editme.py serve [options]
 
 Options:
     -h --help               Show this screen.
@@ -25,25 +25,28 @@ Options:
 
 import json
 import os
-from typing import Iterator, List, Dict
+from typing import Dict, Iterator, List
 
-from docopt import docopt
+import numpy as np
 import torch
 import torch.optim as optim
-import numpy as np
-
 from allennlp.common.file_utils import cached_path
-from allennlp.data.vocabulary import Vocabulary
-from allennlp.modules.text_field_embedders import TextFieldEmbedder, BasicTextFieldEmbedder
-from allennlp.modules.token_embedders import Embedding
-from allennlp.modules.seq2seq_encoders import Seq2SeqEncoder, PytorchSeq2SeqWrapper
 from allennlp.data.iterators import BucketIterator
-from allennlp.training.trainer import Trainer
+from allennlp.data.vocabulary import Vocabulary
+from allennlp.modules.seq2seq_encoders import (PytorchSeq2SeqWrapper,
+                                               Seq2SeqEncoder)
+from allennlp.modules.text_field_embedders import (BasicTextFieldEmbedder,
+                                                   TextFieldEmbedder)
+from allennlp.modules.token_embedders import Embedding
 from allennlp.predictors import SentenceTaggerPredictor
+from allennlp.training.trainer import Trainer
+from docopt import docopt
 
-from reader import EditmeDatasetReader, read_iter
 from model import LSTMTagger
+from reader import EditmeDatasetReader, read_iter
 from util import computeF1Score
+
+from flask import Flask, request, jsonify
 
 
 def train(args):
@@ -60,9 +63,11 @@ def train(args):
 
     vocab = Vocabulary.from_instances(
         train_dataset+validation_dataset, min_count=min_count)
+    vocab_save_dir = os.path.join(args["--work-dir"], "vocabulary")
+    vocab.save_to_files(vocab_save_dir)
+
     # Build model
     print("Building model...")
-
     embed_dim = int(args["--embed-dim"])
 
     token_embedding = Embedding(num_embeddings=vocab.get_vocab_size('tokens'),
@@ -104,8 +109,8 @@ def train(args):
 
     print("Train set")
     train_metrics = evaluate(args["--train-file"], predictor, vocab)
-    print("Validation set")
 
+    print("Validation set")
     valid_metrics = evaluate(args["--valid-file"], predictor, vocab)
 
     print("Test set")
@@ -164,8 +169,62 @@ def evaluate(filepath, predictor, vocab):
     return metrics
 
 
-def test(args):
-    raise NotImplementedError
+def serve(args):
+
+    # Load Model
+    work_dir = args["--work-dir"]
+    vocab = Vocabulary.from_files(os.path.join(work_dir, 'vocabulary'))
+
+    print("Building model...")
+    embed_dim = int(args["--embed-dim"])
+
+    token_embedding = Embedding(num_embeddings=vocab.get_vocab_size('tokens'),
+                                embedding_dim=embed_dim)
+    word_embeddings = BasicTextFieldEmbedder({"tokens": token_embedding})
+    lstm_args = {
+        "input_size": embed_dim,
+        "hidden_size": int(args["--hidden-dim"]),
+        "num_layers": int(args["--num-layers"]),
+        "batch_first": True,
+        "dropout": float(args["--dropout-rate"]),
+        "bidirectional": bool(args["--bidirectional"])
+    }
+    lstm = PytorchSeq2SeqWrapper(torch.nn.LSTM(**lstm_args))
+    model = LSTMTagger(word_embeddings, lstm, vocab)
+    model.load_state_dict(torch.load(os.path.join(work_dir, 'best.th')))
+
+    # Build predictor
+    reader = EditmeDatasetReader()
+    predictor = SentenceTaggerPredictor(model, dataset_reader=reader)
+
+    # Funny that we can do something like this
+
+    app = Flask(__name__)
+
+    @app.route("/tag", methods=["POST"])
+    def tag():
+        sentence = request.form.get("sentence", "").strip()
+        if sentence == "":
+            return jsonify({"sentence": "", "tags": "", "intent": ""})
+
+        output = predictor.predict(sentence)
+        tag_logits = output['tag_logits']
+        intent_logits = output['intent_logits']
+
+        tag_ids = np.argmax(tag_logits, axis=-1)
+        pred_tags = [vocab.get_token_from_index(
+            i, 'IOB_labels') for i in tag_ids]
+        intent_id = np.argmax(intent_logits, axis=-1)
+        pred_intent = vocab.get_token_from_index(
+            intent_id, 'intent_labels')
+        print("Sentence: ", sentence)
+        print("Predicted tags: ", pred_tags)
+        print("Predicted intent: ", pred_intent)
+        print(pred_tags, pred_intent)
+
+        return jsonify({"sentence": sentence, "tags": pred_tags, "intent": pred_intent})
+
+    app.run('0.0.0.0', port=2005)
 
 
 def main():
@@ -177,8 +236,8 @@ def main():
     torch.manual_seed(seed)
     if args['train']:
         train(args)
-    elif args['decode']:
-        test(args)
+    elif args['serve']:
+        serve(args)
     else:
         raise RuntimeError(f'invalid mode')
 
