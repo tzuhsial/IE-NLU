@@ -207,6 +207,7 @@ def serve(args):
         if sentence == "":
             return jsonify({"sentence": "", "tags": "", "intent": ""})
 
+        tokens = [t.text for t in predictor._tokenizer.split_words(sentence)]
         output = predictor.predict(sentence)
         tag_logits = output['tag_logits']
         intent_logits = output['intent_logits']
@@ -222,9 +223,9 @@ def serve(args):
         print("Predicted intent: ", pred_intent)
         print(pred_tags, pred_intent)
 
-        return jsonify({"sentence": sentence, "tags": pred_tags, "intent": pred_intent})
+        return jsonify({"sentence": sentence, "tags": pred_tags, "intent": pred_intent, "tokens": tokens})
 
-    app.run('0.0.0.0', port=2005)
+    app.run('0.0.0.0', port=2004)
 
 
 def main():
