@@ -1,0 +1,16 @@
+adjust
+delete
+comment
+crop
+add
+replace
+apply
+other
+rotate
+move
+zoom
+transform
+clone
+undo
+adjust) [inten
+swap
