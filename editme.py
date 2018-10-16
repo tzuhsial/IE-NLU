@@ -1,7 +1,8 @@
 """
 Usage:
-    editme.py train [options]
-    editme.py serve [options]
+    editme.py train    [options]
+    editme.py terminal [options]
+    editme.py serve    [options]
 
 Options:
     -h --help               Show this screen.
@@ -169,6 +170,58 @@ def evaluate(filepath, predictor, vocab):
     return metrics
 
 
+def terminal(args):
+
+    # Load Model
+    work_dir = args["--work-dir"]
+    vocab = Vocabulary.from_files(os.path.join(work_dir, 'vocabulary'))
+
+    print("Building model...")
+    embed_dim = int(args["--embed-dim"])
+
+    token_embedding = Embedding(num_embeddings=vocab.get_vocab_size('tokens'),
+                                embedding_dim=embed_dim)
+    word_embeddings = BasicTextFieldEmbedder({"tokens": token_embedding})
+    lstm_args = {
+        "input_size": embed_dim,
+        "hidden_size": int(args["--hidden-dim"]),
+        "num_layers": int(args["--num-layers"]),
+        "batch_first": True,
+        "dropout": float(args["--dropout-rate"]),
+        "bidirectional": bool(args["--bidirectional"])
+    }
+    lstm = PytorchSeq2SeqWrapper(torch.nn.LSTM(**lstm_args))
+    model = LSTMTagger(word_embeddings, lstm, vocab)
+    model.load_state_dict(torch.load(os.path.join(work_dir, 'best.th')))
+
+    # Build predictor
+    reader = EditmeDatasetReader()
+    predictor = SentenceTaggerPredictor(model, dataset_reader=reader)
+
+    # Funny that we can do something like this
+
+    while True:
+        sentence = input("Input a sentence: ")
+        sentence = sentence.strip()
+
+        if sentence == "":
+            continue
+
+        output = predictor.predict(sentence)
+        tag_logits = output['tag_logits']
+        intent_logits = output['intent_logits']
+
+        tag_ids = np.argmax(tag_logits, axis=-1)
+        pred_tags = [vocab.get_token_from_index(
+            i, 'IOB_labels') for i in tag_ids]
+        intent_id = np.argmax(intent_logits, axis=-1)
+        pred_intent = vocab.get_token_from_index(
+            intent_id, 'intent_labels')
+        print("Sentence: ", sentence)
+        print("Predicted tags: ", pred_tags)
+        print("Predicted intent: ", pred_intent)
+
+
 def serve(args):
 
     # Load Model
@@ -237,6 +290,8 @@ def main():
     torch.manual_seed(seed)
     if args['train']:
         train(args)
+    elif args['terminal']:
+        terminal(args)
     elif args['serve']:
         serve(args)
     else:
