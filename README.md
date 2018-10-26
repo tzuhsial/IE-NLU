@@ -9,7 +9,7 @@ First create a python 3.6 environment and install the necessary packages
 ```bash
 # Installation
 conda create -n editme python=3.6
-source activate editme
+conda activate editme
 pip install -r requirements.txt
 python -m spacy download en
 ```
