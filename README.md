@@ -12,6 +12,7 @@ conda create -n editme python=3.6
 conda activate editme
 sudo apt install gcc
 sudo apt install make
+sudo apt install g++
 pip install --upgrade pip
 pip install -r requirements.txt
 python -m spacy download en
