@@ -224,6 +224,22 @@ def test(opt):
     print("F1", np.mean(f1scores), "Intent", intent_acc)
 
 
+def terminal(opt):
+    # model
+    work_dir = opt['--work-dir']
+    model_path = os.path.join(work_dir, 'model.pt')
+    use_cuda = opt['--cuda'] and torch.cuda.is_available()
+    model = IOBTagger.load(model_path, use_cuda)
+
+    while True:
+
+        sent = input("Input: ")
+
+        result = model.tag(sent)
+
+        print("Predict:", result)
+
+
 if __name__ == '__main__':
     opt = docopt(__doc__, version='0.1')
     seed = int(opt['--seed'])
@@ -236,3 +252,5 @@ if __name__ == '__main__':
         train(opt)
     elif opt["test"]:
         test(opt)
+    elif opt["terminal"]:
+        terminal(opt)

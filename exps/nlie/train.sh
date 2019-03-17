@@ -4,4 +4,4 @@ python train.py train \
     --valid=./data/nlie/valid.txt \
     --test=./data/nlie/test.txt \
     --vocab=./data/nlie/vocab.bin \
-    --work-dir=./work_dir.debug
+    --work-dir=./work_dir

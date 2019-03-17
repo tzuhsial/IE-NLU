@@ -1,3 +1,4 @@
+import re
 from nltk.tokenize import word_tokenize
 
 import torch
@@ -105,6 +106,71 @@ class IOBTagger(nn.Module):
 
         return tags_losses, intent_losses
 
+    def preprocess(self, sent):
+        """ Preprocess sentence into our tagging format
+        """
+        if isinstance(sent, str):
+            tokens = word_tokenize(sent)
+        tokens = sent
+
+        print("hard coded preprocess <attribute> and <value> in model")
+
+        words = []
+        for token in word_tokenize(sent):
+            if token in ["brightness", "contrast", "hue", "saturation", "lightness"]:
+                word = "<attribute>"
+            elif token.isdigit() or (token[0] == "-" and token[1:].isdigit()):
+                word = "<value>"
+            else:
+                word = token
+            words.append(word)
+        return words
+
+    def postprocess(self, sent, tags_pred, tags_intent):
+
+        obj = {
+            "action": [],
+            "refer": [],
+            "attribute": [],
+            "value": [],
+            "intent": tags_intent
+        }
+
+        # For convenience
+
+        sent.append("</s>")
+        tags_pred.append("O")
+
+        prev_tag = None
+        prev_words = []
+        for word, tag in zip(sent, tags_pred):
+
+            if tag == "O" or tag.startswith("B"):
+
+                if prev_words:
+                    assert prev_tag != "O"
+
+                    _, prev_tag_type = prev_tag.split('-')
+
+                    phrase = " ".join(prev_words)
+
+                    obj[prev_tag_type].append(phrase)
+
+                    prev_words = []
+
+                if tag.startswith("B"):
+                    _, tag_type = tag.split("-")
+                    prev_words.append(word)
+
+            else:
+                B_or_I, tag_type = tag.split('-')
+                assert B_or_I == "I"
+
+                prev_words.append(word)
+
+            prev_tag = tag
+        return obj
+
     def predict(self, sent):
         """ Predict tags for a single sentence
         Args:
@@ -114,10 +180,12 @@ class IOBTagger(nn.Module):
             intent (str): predicted intent 
         """
         if isinstance(sent, str):
-            sent = word_tokenize(sent)
+            pp_sent = self.preprocess(sent)
+        else:
+            pp_sent = sent
 
         # token to index
-        sents = self.vocab.word.words2indices([sent])
+        sents = self.vocab.word.words2indices([pp_sent])
 
         # Convert sentence to tensor
         sents_ids = input_transpose(sents, self.vocab.word.pad_id)
@@ -154,6 +222,15 @@ class IOBTagger(nn.Module):
         intent_pred = self.vocab.intent.id2word(intent_id)
 
         return tags_pred, intent_pred
+
+    def tag(self, sent):
+        if isinstance(sent, str):
+            pre_sent = self.preprocess(sent)
+            sent = word_tokenize(sent)
+
+        tags_pred, intent_pred = self.predict(pre_sent)
+        result = self.postprocess(sent, tags_pred, intent_pred)
+        return result
 
     @staticmethod
     def load(model_path: str, use_cuda=False):
