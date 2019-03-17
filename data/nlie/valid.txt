@@ -1,0 +1,243 @@
+tags|intent
+please###O edit###B-action the###O <attribute>###B-attribute for###O the###B-refer coffee###I-refer cup###I-refer on###I-refer the###I-refer very###I-refer bottom###I-refer to###O <value>###B-value|adjust
+edit###B-action the###O <attribute>###B-attribute of###O the###B-refer small###I-refer laptop###I-refer in###I-refer the###I-refer middle###I-refer with###I-refer the###I-refer display###I-refer lite###I-refer to###O a###O value###O of###O <value>###B-value|adjust
+edit###B-action the###O <attribute>###B-attribute of###O the###B-refer mug###I-refer with###I-refer dark###I-refer coffee###I-refer to###O <value>###B-value .###O|adjust
+edit###B-action the###B-refer cow###I-refer on###I-refer the###I-refer right###I-refer so###O that###O the###O <attribute>###B-attribute is###O at###O <value>###B-value .###O|adjust
+decrease###B-action the###O <attribute>###B-attribute of###O the###B-refer scientific###I-refer american###I-refer magazine###I-refer by###O <value>###B-value .###O|adjust
+please###O adjust###B-action the###O <attribute>###B-attribute up###O by###O <value>###B-value on###O the###B-refer blanket###I-refer that###I-refer the###I-refer little###I-refer girl###I-refer is###I-refer laying###I-refer her###I-refer head###I-refer on###I-refer .###O|adjust
+please###O edit###B-action the###O <attribute>###B-attribute for###O the###B-refer street###I-refer light###I-refer to###O <value>###B-value|adjust
+computer###B-refer screen###I-refer on###I-refer the###I-refer right###I-refer .###O property###O is###O <attribute>###B-attribute with###O a###O value###O of###O <value>###B-value .###O|adjust
+give###B-action the###B-refer yellow###I-refer pottery###I-refer a###O <attribute>###B-attribute value###O of###O <value>###B-value .###O|adjust
+set###B-action the###O <attribute>###B-attribute value###O of###O the###B-refer monkey###I-refer backpack###I-refer to###O <value>###B-value|adjust
+modify###B-action the###O <attribute>###B-attribute for###O the###B-refer keyboard###I-refer on###I-refer the###I-refer left###I-refer with###I-refer the###I-refer all###I-refer black###I-refer mouse###I-refer on###I-refer top###I-refer by###O <value>###B-value .###O|adjust
+please###O edit###B-action the###O <attribute>###B-attribute for###O the###B-refer left###I-refer giraffe###I-refer to###O <value>###B-value|adjust
+please###O increase###B-action the###O <attribute>###B-attribute of###O the###B-refer flowery###I-refer bike###I-refer in###I-refer the###I-refer center###I-refer by###O <value>###B-value .###O|adjust
+increase###B-action the###O <attribute>###B-attribute of###O the###B-refer woman###I-refer in###I-refer the###I-refer center###I-refer by###O a###O value###O of###O <value>###B-value .###O|adjust
+edit###B-action the###B-refer red###I-refer flower###I-refer pot###I-refer in###I-refer the###I-refer middle###I-refer so###O that###O the###O <attribute>###B-attribute is###O <value>###B-value .###O|adjust
+modify###B-action the###O <attribute>###B-attribute by###O <value>###B-value of###O the###B-refer motorcycle###I-refer under###I-refer the###I-refer rider###I-refer dressed###I-refer in###I-refer black###I-refer|adjust
+the###O object###O to###O edit###O is###O the###B-refer hot###I-refer dog###I-refer on###I-refer the###I-refer right###I-refer side###I-refer of###I-refer the###I-refer plate###I-refer ,###I-refer closest###I-refer to###I-refer the###I-refer drink###I-refer .###O modify###B-action the###O <attribute>###B-attribute by###O <value>###B-value .###O|adjust
+adjust###B-action the###O <attribute>###B-attribute value###O to###O <value>###B-value for###O the###B-refer car###I-refer in###I-refer the###I-refer bottom###I-refer left###I-refer corner###I-refer|adjust
+the###B-refer left###I-refer horse###I-refer needs###O <attribute>###B-attribute changed###O by###O a###O value###O of###O <value>###B-value .###O|adjust
+please###O change###B-action the###O <attribute>###B-attribute on###O the###B-refer empty###I-refer bench###I-refer next###I-refer to###I-refer the###I-refer blue###I-refer umbrella###I-refer by###O <value>###B-value .###O|adjust
+modify###B-action <attribute>###B-attribute by###O <value>###B-value on###O the###B-refer second###I-refer layer###I-refer of###I-refer scissors###I-refer from###I-refer the###I-refer top/###I-refer|adjust
+change###B-action the###O <attribute>###B-attribute of###O the###B-refer small###I-refer laptop###I-refer with###I-refer the###I-refer animal###I-refer on###I-refer screen###I-refer to###O <value>###B-value .###O|adjust
+modify###B-action <attribute>###B-attribute by###O <value>###B-value on###O train###B-refer|adjust
+change###B-action the###O <attribute>###B-attribute of###O the###B-refer train###I-refer on###I-refer the###I-refer right###I-refer to###O <value>###B-value|adjust
+edit###B-action the###O <attribute>###B-attribute to###O <value>###B-value on###O the###B-refer top###I-refer third###I-refer from###I-refer left###I-refer banana###I-refer .###O|adjust
+adjust###B-action the###O <attribute>###B-attribute value###O of###O the###B-refer blue###I-refer truck###I-refer in###I-refer the###I-refer background###I-refer to###O <value>###B-value|adjust
+give###B-action the###B-refer second###I-refer tie###I-refer from###I-refer the###I-refer top###I-refer a###O <attribute>###B-attribute value###O of###O <value>###B-value .###O|adjust
+please###O edit###B-action the###O <attribute>###B-attribute for###O the###B-refer mustard###I-refer to###O <value>###B-value|adjust
+please###O edit###B-action the###O <attribute>###B-attribute for###O the###B-refer third###I-refer boat###I-refer from###I-refer the###I-refer left###I-refer to###O <value>###B-value|adjust
+change###B-action the###O <attribute>###B-attribute of###O the###B-refer left###I-refer board###I-refer standing###I-refer up###I-refer to###O <value>###B-value .###O|adjust
+change###B-action the###O <attribute>###B-attribute of###O the###B-refer right###I-refer zebra###I-refer to###O <value>###B-value .###O|adjust
+edit###B-action the###O <attribute>###B-attribute of###O the###B-refer train###I-refer on###I-refer the###I-refer right###I-refer to###O a###O value###O of###O <value>###B-value|adjust
+set###B-action the###O <attribute>###B-attribute value###O of###O the###B-refer banana###I-refer with###I-refer brown###I-refer spots###I-refer near###I-refer the###I-refer top-middle###I-refer to###O <value>###B-value|adjust
+edit###B-action the###O <attribute>###B-attribute of###O the###B-refer street###I-refer light###I-refer portion###I-refer to###O a###O value###O of###O <value>###B-value|adjust
+edit###B-action the###O <attribute>###B-attribute of###O the###B-refer blue###I-refer truck###I-refer on###I-refer the###I-refer left###I-refer to###O a###O value###O of###O <value>###B-value|adjust
+adjust###B-action the###O <attribute>###B-attribute value###O of###O the###B-refer second###I-refer tie###I-refer from###I-refer the###I-refer top###I-refer to###O <value>###B-value|adjust
+change###B-action the###O <attribute>###B-attribute of###O the###B-refer white###I-refer spoon###I-refer on###I-refer the###I-refer right###I-refer to###O <value>###B-value|adjust
+please###O increase###B-action the###O <attribute>###B-attribute of###O the###B-refer bowl###I-refer with###I-refer light###I-refer brown###I-refer soup###I-refer by###O <value>###B-value .###O|adjust
+set###B-action the###O <attribute>###B-attribute of###O the###B-refer upper###I-refer right###I-refer kite###I-refer to###O <value>###B-value|adjust
+increase###B-action the###O <attribute>###B-attribute of###O the###B-refer furthest###I-refer left###I-refer remote###I-refer by###O <value>###B-value .###O|adjust
+increase###B-action the###O <attribute>###B-attribute of###O the###B-refer parking###I-refer meter###I-refer labeled###I-refer 32###I-refer by###O <value>###B-value|adjust
+change###B-action the###O <attribute>###B-attribute of###O the###B-refer green###I-refer and###I-refer black###I-refer rail###I-refer in###I-refer the###I-refer foreground###I-refer in###I-refer bottom###I-refer left###I-refer to###O <value>###B-value .###O|adjust
+edit###B-action the###O <attribute>###B-attribute of###O the###B-refer blue###I-refer bus###I-refer to###O a###O value###O of###O <value>###B-value|adjust
+edit###B-action the###O <attribute>###B-attribute of###O the###B-refer green###I-refer purse###I-refer to###I-refer the###I-refer top###I-refer left###I-refer to###O a###O value###O of###O <value>###B-value|adjust
+change###B-action the###O <attribute>###B-attribute of###O the###B-refer uncut###I-refer apple###I-refer to###O <value>###B-value .###O|adjust
+increase###B-action the###O <attribute>###B-attribute of###O the###B-refer bottom###I-refer right###I-refer box###I-refer by###O a###O value###O of###O <value>###B-value .###O|adjust
+increase###B-action the###O <attribute>###B-attribute of###O the###B-refer phone###I-refer by###O <value>###B-value|adjust
+modify###B-action the###B-refer bottom###I-refer slanted###I-refer orange###I-refer half###I-refer 's###O <attribute>###B-attribute by###O <value>###B-value .###O|adjust
+the###B-refer orange###I-refer monkey###I-refer backpack###I-refer needs###O <attribute>###B-attribute changed###B-action by###O a###O value###O of###O <value>###B-value .###O|adjust
+the###B-refer front###I-refer guy###I-refer needs###O <attribute>###B-attribute changed###B-action by###O a###O value###O of###O <value>###B-value .###O|adjust
+increase###B-action the###O <attribute>###B-attribute of###O the###B-refer fries###I-refer on###I-refer the###I-refer right###I-refer by###O <value>###B-value .###O|adjust
+please###O edit###B-action the###O <attribute>###B-attribute for###O the###B-refer transparent###I-refer brown###I-refer sauce###I-refer to###O <value>###B-value|adjust
+increase###B-action the###O <attribute>###B-attribute of###O the###B-refer pastry###I-refer item###I-refer on###I-refer the###I-refer right###I-refer front###I-refer of###I-refer the###I-refer plate###I-refer by###O a###O value###O of###O <value>###B-value .###O|adjust
+change###B-action the###O <attribute>###B-attribute of###O the###B-refer white###I-refer car###I-refer in###I-refer the###I-refer left###I-refer corner###I-refer by###O <value>###B-value|adjust
+please###O edit###B-action the###O <attribute>###B-attribute for###O the###B-refer big###I-refer cow###I-refer to###O <value>###B-value|adjust
+change###B-action the###O <attribute>###B-attribute value###O of###O the###B-refer last###I-refer blue###I-refer plane###I-refer to###O <value>###B-value .###O|adjust
+on###O the###B-refer glazed###I-refer doughnut###I-refer in###I-refer the###I-refer center###I-refer row###I-refer to###I-refer the###I-refer far###I-refer right###I-refer ,###O edit###B-action the###O <attribute>###B-attribute to###O <value>###B-value .###O|adjust
+modify###B-action the###O <attribute>###B-attribute on###O the###B-refer street###I-refer lights###I-refer by###O <value>###B-value .###O|adjust
+modify###B-action the###O <attribute>###B-attribute for###O the###B-refer monkey###I-refer backpack###I-refer by###O <value>###B-value .###O|adjust
+give###B-action the###B-refer meter###I-refer to###I-refer the###I-refer left###I-refer a###O <attribute>###B-attribute value###O of###O <value>###B-value .###O|adjust
+give###B-action the###B-refer white###I-refer spoon###I-refer to###I-refer the###I-refer far###I-refer right###I-refer a###O <attribute>###B-attribute value###O of###O <value>###B-value .###O|adjust
+change###B-action the###O <attribute>###B-attribute of###O the###B-refer right###I-refer bird###I-refer to###O <value>###B-value .###O|adjust
+please###O edit###B-action the###O <attribute>###B-attribute for###O the###B-refer blue###I-refer truck###I-refer to###O <value>###B-value|adjust
+change###B-action the###O <attribute>###B-attribute of###O the###B-refer zebra###I-refer on###I-refer the###I-refer right###I-refer to###O <value>###B-value|adjust
+please###O edit###B-action the###O <attribute>###B-attribute of###O the###B-refer soup###I-refer to###O <value>###B-value .###O|adjust
+edit###B-action the###O <attribute>###B-attribute of###O the###B-refer sink###I-refer to###I-refer the###I-refer bottom###I-refer right###I-refer to###O a###O value###O of###O <value>###B-value|adjust
+the###B-refer green###I-refer purse###I-refer on###I-refer top###I-refer of###I-refer the###I-refer suitcase###I-refer is###O to###O be###O edited###B-action with###O a###O <attribute>###B-attribute of###O <value>###B-value .###O|adjust
+modify###B-action the###O <attribute>###B-attribute by###O <value>###B-value on###O the###B-refer parking###I-refer meter###I-refer closest###I-refer to###I-refer you###I-refer .###O|adjust
+lower###B-action the###O <attribute>###B-attribute of###O the###B-refer meter###I-refer on###I-refer the###I-refer left###I-refer by###O <value>###B-value units###O .###O|adjust
+modify###B-action the###O <attribute>###B-attribute by###O <value>###B-value on###O the###B-refer front###I-refer right###I-refer sink###I-refer .###O|adjust
+set###B-action the###O <attribute>###B-attribute of###O the###B-refer pizza###I-refer being###I-refer cut###I-refer in###I-refer the###I-refer background###I-refer to###O <value>###B-value|adjust
+please###O increase###B-action the###O <attribute>###B-attribute of###O the###B-refer zebra###I-refer on###I-refer the###I-refer right###I-refer by###O <value>###B-value .###O|adjust
+please###O edit###B-action the###O <attribute>###B-attribute for###O the###B-refer plain###I-refer bike###I-refer behind###I-refer the###I-refer front###I-refer bike###I-refer to###O <value>###B-value|adjust
+modify###B-action the###O <attribute>###B-attribute by###O <value>###B-value of###O the###B-refer object###I-refer in###I-refer the###I-refer left###I-refer bottom###I-refer corner###I-refer .###O|adjust
+edit###B-action the###O <attribute>###B-attribute of###O the###B-refer flowers###I-refer in###I-refer a###I-refer red###I-refer vase###I-refer in###I-refer the###I-refer middle###I-refer of###I-refer the###I-refer boat###I-refer to###O a###O value###O of###O <value>###B-value|adjust
+please###O change###B-action the###O <attribute>###B-attribute on###O the###B-refer traffic###I-refer light###I-refer to###O value###O <value>###B-value .###O|adjust
+edit###B-action the###O <attribute>###B-attribute of###O the###B-refer cow###I-refer on###I-refer the###I-refer right###I-refer to###O a###O value###O of###O <value>###B-value|adjust
+increase###B-action the###O <attribute>###B-attribute of###O the###B-refer animal###I-refer on###I-refer the###I-refer left###I-refer by###O <value>###B-value .###O|adjust
+edit###B-action the###O <attribute>###B-attribute of###O the###B-refer blue###I-refer truck###I-refer to###O a###O value###O of###O <value>###B-value|adjust
+edit###B-action the###O <attribute>###B-attribute of###O the###B-refer woman###I-refer in###I-refer the###I-refer center###I-refer to###O <value>###B-value .###O|adjust
+edit###B-action the###O <attribute>###B-attribute of###O the###B-refer blue###I-refer truck###I-refer cab###I-refer on###I-refer the###I-refer left###I-refer to###O <value>###B-value .###O|adjust
+please###O edit###B-action the###O <attribute>###B-attribute for###O the###B-refer meter###I-refer on###I-refer the###I-refer left###I-refer to###O <value>###B-value|adjust
+the###B-refer second###I-refer tie###I-refer from###I-refer the###I-refer top###I-refer needs###O <attribute>###B-attribute changed###B-action by###O a###O value###O of###O <value>###B-value .###O|adjust
+increase###B-action the###O <attribute>###B-attribute of###O the###B-refer dog###I-refer on###I-refer the###I-refer right###I-refer by###O a###O value###O of###O <value>###B-value|adjust
+change###B-action the###O <attribute>###B-attribute of###O the###B-refer teddy###I-refer bear###I-refer closest###I-refer to###I-refer the###I-refer camera###I-refer to###O <value>###B-value .###O|adjust
+reduce###B-action the###O <attribute>###B-attribute value###O of###O the###B-refer plane###I-refer on###I-refer top###I-refer by###O <value>###B-value .###O|adjust
+set###B-action the###O <attribute>###B-attribute of###O the###B-refer cake###I-refer to###O <value>###B-value|adjust
+give###B-action the###B-refer cat###I-refer on###I-refer the###I-refer right###I-refer a###O <attribute>###B-attribute value###O of###O <value>###B-value .###O|adjust
+change###B-action the###O <attribute>###B-attribute of###O the###B-refer bottom###I-refer knife###I-refer by###O <value>###B-value|adjust
+edit###B-action the###O <attribute>###B-attribute of###O the###B-refer blue###I-refer board###I-refer standing###I-refer up###I-refer to###O a###O value###O of###O <value>###B-value|adjust
+please###O edit###B-action the###O <attribute>###B-attribute for###O the###B-refer bike###I-refer on###I-refer the###I-refer right###I-refer to###O <value>###B-value|adjust
+change###B-action the###O <attribute>###B-attribute of###O the###B-refer oven###I-refer on###I-refer top###I-refer to###O <value>###B-value|adjust
+increase###B-action the###O <attribute>###B-attribute of###O the###B-refer glass###I-refer on###I-refer the###I-refer right###I-refer by###O <value>###B-value .###O|adjust
+find###O white###B-refer chair###I-refer in###I-refer back###I-refer on###I-refer right###I-refer .###O <attribute>###B-attribute the###O entire###O upper###O right###O side###O corner###O shown###O above###O man###O 's###O back###O with###O a###O value###O of###O <value>###B-value .###O|adjust
+adjust###B-action the###O <attribute>###B-attribute value###O of###O the###B-refer motorcycle###I-refer on###I-refer the###I-refer right###I-refer to###O <value>###B-value|adjust
+please###O edit###B-action the###O <attribute>###B-attribute of###O the###B-refer third###I-refer boat###I-refer from###I-refer the###I-refer front###I-refer by###O <value>###B-value .###O|adjust
+set###B-action the###O <attribute>###B-attribute of###O the###B-refer glass###I-refer in###I-refer the###I-refer bottom###I-refer right###I-refer corner###I-refer to###O <value>###B-value|adjust
+increase###B-action the###O <attribute>###B-attribute of###O the###B-refer girl###I-refer facing###I-refer us###I-refer holding###I-refer red###I-refer shirt###I-refer by###O a###O value###O of###O <value>###B-value|adjust
+decrease###B-action the###O <attribute>###B-attribute of###O the###B-refer monitor###I-refer on###I-refer the###I-refer right###I-refer by###O <value>###B-value|adjust
+please###O edit###B-action the###O <attribute>###B-attribute for###O the###B-refer right###I-refer white###I-refer mouse###I-refer to###O <value>###B-value|adjust
+set###B-action the###O <attribute>###B-attribute of###O the###B-refer car###I-refer in###I-refer the###I-refer bottom###I-refer left###I-refer corner###I-refer to###O <value>###B-value|adjust
+edit###B-action the###O <attribute>###B-attribute of###O the###B-refer pizza###I-refer being###I-refer cut###I-refer into###O to###O a###O value###O of###O <value>###B-value|adjust
+change###B-action the###O <attribute>###B-attribute of###O the###B-refer bench###I-refer directly###I-refer in###I-refer front###I-refer of###I-refer the###I-refer man###I-refer in###I-refer the###I-refer white###I-refer tank###I-refer top###I-refer to###O <value>###B-value .###O|adjust
+decrease###B-action the###O <attribute>###B-attribute of###O the###B-refer closest###I-refer knife###I-refer by###O <value>###B-value .###O|adjust
+change###B-action the###O <attribute>###B-attribute of###O the###B-refer urinal###I-refer on###I-refer the###I-refer right###I-refer to###O <value>###B-value .###O|adjust
+modify###B-action <attribute>###B-attribute by###O <value>###B-value on###O seat###B-refer of###I-refer bench###I-refer ,###I-refer behind###I-refer and###I-refer in###I-refer front###I-refer of###I-refer batter###I-refer ,###I-refer from###I-refer waist###I-refer to###I-refer chest###I-refer level###I-refer .###O|adjust
+adjust###B-action the###O <attribute>###B-attribute value###O of###O the###B-refer white###I-refer bear###I-refer to###O <value>###B-value|adjust
+decrease###B-action the###O <attribute>###B-attribute of###O the###B-refer umbrella###I-refer on###I-refer the###I-refer right###I-refer by###O <value>###B-value .###O|adjust
+edit###B-action the###O <attribute>###B-attribute of###O the###B-refer top###I-refer left###I-refer traffic###I-refer light###I-refer to###O <value>###B-value .###O|adjust
+take###O right-most###B-refer clock###I-refer and###O increase###B-action <attribute>###B-attribute by###O <value>###B-value .###O|adjust
+adjust###B-action the###O <attribute>###B-attribute value###O of###O the###B-refer big###I-refer elephant###I-refer to###O <value>###B-value|adjust
+set###B-action the###O <attribute>###B-attribute of###O the###B-refer chair###I-refer above###I-refer the###I-refer dog###I-refer to###O <value>###B-value|adjust
+change###B-action the###O <attribute>###B-attribute of###O the###B-refer black###I-refer and###I-refer orange###I-refer triangular###I-refer shape###I-refer in###I-refer the###I-refer bottom###I-refer left###I-refer to###O <value>###B-value .###O|adjust
+edit###B-action the###O <attribute>###B-attribute of###O the###B-refer big###I-refer elephant###I-refer to###I-refer the###I-refer right###I-refer to###O a###O value###O of###O <value>###B-value|adjust
+reduce###B-action the###O <attribute>###B-attribute of###O the###B-refer right###I-refer umbrella###I-refer by###O <value>###B-value .###O|adjust
+please###O edit###B-action the###O <attribute>###B-attribute for###O the###B-refer top###I-refer bird###I-refer to###O <value>###B-value|adjust
+change###B-action the###O <attribute>###B-attribute of###O the###B-refer hotdog###I-refer on###I-refer the###I-refer right###I-refer side###I-refer of###I-refer the###I-refer plate###I-refer to###O <value>###B-value|adjust
+edit###B-action the###O <attribute>###B-attribute of###O the###B-refer broccoli###I-refer on###I-refer the###I-refer left###I-refer to###O <value>###B-value .###O|adjust
+edit###B-action the###O <attribute>###B-attribute of###O the###B-refer suitcase###I-refer the###I-refer cat###I-refer is###I-refer sitting###I-refer on###I-refer to###O a###O value###O of###O <value>###B-value|adjust
+the###B-refer chair###I-refer in###I-refer the###I-refer upper###I-refer right###I-refer corner###I-refer needs###O <attribute>###B-attribute modification###O at###O value###O <value>###B-value|adjust
+edit###B-action the###O <attribute>###B-attribute of###O the###B-refer right###I-refer white###I-refer mouse###I-refer to###O a###O value###O of###O <value>###B-value|adjust
+set###B-action the###O <attribute>###B-attribute of###O the###B-refer animal###I-refer on###I-refer the###I-refer left###I-refer to###O <value>###B-value|adjust
+the###B-refer yellow###I-refer mustard###I-refer bottle###I-refer needs###O <attribute>###B-attribute modified###B-action by###O a###O value###O of###O <value>###B-value|adjust
+plane###B-refer furthest###I-refer to###I-refer the###I-refer left###I-refer .###O edit###B-action <attribute>###B-attribute value###O <value>###B-value|adjust
+give###B-action the###B-refer traffic###I-refer light###I-refer directly###I-refer above###I-refer the###I-refer walk###I-refer sign###I-refer a###O <attribute>###B-attribute value###O of###O <value>###B-value .###O|adjust
+change###B-action the###O <attribute>###B-attribute of###O the###B-refer red###I-refer and###I-refer white###I-refer kite###I-refer at###I-refer the###I-refer upper###I-refer right###I-refer to###O <value>###B-value|adjust
+set###B-action the###O <attribute>###B-attribute of###O the###B-refer right###I-refer mouse###I-refer to###O <value>###B-value|adjust
+set###B-action the###O <attribute>###B-attribute value###O of###O the###B-refer top###I-refer traffic###I-refer light###I-refer to###O <value>###B-value|adjust
+edit###B-action the###O <attribute>###B-attribute of###O the###B-refer opened###I-refer refrigerator###I-refer to###O a###O value###O of###O <value>###B-value|adjust
+apply###B-action <value>###B-value <attribute>###B-attribute to###O center###B-refer cow###I-refer|adjust
+the###B-refer cake###I-refer below###I-refer the###I-refer candles###I-refer needs###O <attribute>###B-attribute changed###B-action by###O a###O value###O of###O <value>###B-value .###O|adjust
+edit###B-action the###O <attribute>###B-attribute to###O <value>###B-value on###O everything###B-refer surrounding###I-refer the###I-refer food###I-refer ,###I-refer except###I-refer for###I-refer the###I-refer saltshaker###I-refer and###I-refer the###I-refer table###I-refer at###I-refer the###I-refer top###I-refer .###O|adjust
+lower###B-action the###O <attribute>###B-attribute of###O the###B-refer cat###I-refer on###I-refer the###I-refer right###I-refer by###O <value>###B-value .###O|adjust
+please###O edit###B-action the###O <attribute>###B-attribute for###O the###B-refer banana###I-refer on###I-refer the###I-refer top###I-refer with###I-refer brown###I-refer spots###I-refer to###O <value>###B-value|adjust
+the###B-refer science###I-refer magazine###I-refer at###I-refer the###I-refer top###I-refer right###I-refer side###I-refer needs###B-action <attribute>###B-attribute modification###O at###O value###O <value>###B-value|adjust
+increase###B-action the###O <attribute>###B-attribute of###O the###B-refer small###I-refer laptop###I-refer by###O a###O value###O of###O <value>###B-value .###O|adjust
+change###B-action the###O <attribute>###B-attribute of###O the###B-refer blue###I-refer bus###I-refer to###O <value>###B-value|adjust
+edit###B-action the###O <attribute>###B-attribute of###O the###B-refer train###I-refer to###O a###O value###O of###O <value>###B-value|adjust
+adjust###B-action the###O <attribute>###B-attribute of###O the###B-refer plain###I-refer bike###I-refer behind###I-refer the###I-refer glitter###I-refer bike###I-refer to###O a###O value###O of###O <value>###B-value|adjust
+the###B-refer bench###I-refer in###I-refer the###I-refer bottom###I-refer left###I-refer corner###I-refer needs###O <attribute>###B-attribute modified###B-action by###O a###O value###O of###O <value>###B-value|adjust
+modify###B-action <attribute>###B-attribute by###O <value>###B-value on###O top###B-refer bird###I-refer|adjust
+change###B-action the###O <attribute>###B-attribute of###O the###B-refer bottom###I-refer microwave###I-refer box###I-refer to###O <value>###B-value .###O|adjust
+edit###B-action the###B-refer chair###I-refer above###I-refer the###I-refer dog###I-refer so###O that###O the###O <attribute>###B-attribute is###O <value>###B-value .###O|adjust
+increase###B-action the###O <attribute>###B-attribute of###O the###B-refer urinal###I-refer on###I-refer the###I-refer right###I-refer by###O a###O value###O of###O <value>###B-value .###O|adjust
+change###B-action the###O <attribute>###B-attribute or###O the###B-refer top###I-refer oven###I-refer to###O <value>###B-value .###O|adjust
+change###B-action the###O <attribute>###B-attribute of###O the###B-refer teddy###I-refer bear###I-refer facing###I-refer the###I-refer camera###I-refer to###O <value>###B-value|adjust
+edit###B-action the###O <attribute>###B-attribute of###O the###B-refer bottom###I-refer microwave###I-refer box###I-refer to###O <value>###B-value .###O|adjust
+decrease###B-action the###O <attribute>###B-attribute of###O the###B-refer motorcycle###I-refer being###I-refer ridden###I-refer by###O <value>###B-value .###O|adjust
+the###B-refer cow###I-refer that###I-refer is###I-refer close###I-refer to###I-refer the###I-refer front###I-refer needs###O <attribute>###B-attribute changed###B-action by###O a###O value###O of###O <value>###B-value .###O|adjust
+please###O edit###B-action the###O <attribute>###B-attribute for###O the###B-refer center###I-refer bike###I-refer to###O <value>###B-value|adjust
+please###O edit###B-action the###O <attribute>###B-attribute for###O the###B-refer bottom###I-refer knife###I-refer to###O <value>###B-value|adjust
+edit###B-action the###O <attribute>###B-attribute of###O the###B-refer big###I-refer headed###I-refer cow###I-refer to###O <value>###B-value .###O|adjust
+please###O edit###B-action the###O <attribute>###B-attribute for###O the###B-refer car###I-refer bottom###I-refer left###I-refer of###I-refer the###I-refer screen###I-refer to###O <value>###B-value|adjust
+add###B-action <attribute>###B-attribute and###O change###O the###O value###O to###O <value>###B-value to###O the###B-refer furthest###I-refer left###I-refer plane###I-refer .###O|adjust
+change###B-action the###O <attribute>###B-attribute of###O the###B-refer blue###I-refer truck###I-refer on###I-refer the###I-refer left###I-refer to###O <value>###B-value|adjust
+for###O the###B-refer cat###I-refer on###I-refer the###I-refer right###I-refer ,###O decrease###B-action the###O <attribute>###B-attribute by###O a###O value###O of###O <value>###B-value|adjust
+modify###B-action the###B-refer left###I-refer remote###I-refer <attribute>###B-attribute to###O <value>###B-value .###O|adjust
+give###B-action the###B-refer lunch###I-refer ,###I-refer spoon###I-refer ,###I-refer plate###I-refer and###I-refer napkin###I-refer a###O <attribute>###B-attribute value###O of###O <value>###B-value .###O|adjust
+please###O decrease###B-action the###O <attribute>###B-attribute of###O the###B-refer umbrella###I-refer being###I-refer held###I-refer by###I-refer the###I-refer man###I-refer by###O <value>###B-value .###O|adjust
+the###B-refer orange###I-refer near###I-refer the###I-refer front###I-refer middle###I-refer of###I-refer the###I-refer page###I-refer needs###O <attribute>###B-attribute modified###B-action by###O a###O value###O of###O <value>###B-value|adjust
+please###O decrease###B-action the###O <attribute>###B-attribute of###O the###B-refer scientific###I-refer american###I-refer magazine###I-refer by###O <value>###B-value .###O|adjust
+give###B-action the###B-refer donut###I-refer in###I-refer the###I-refer middle###I-refer row###I-refer to###I-refer the###I-refer far###I-refer right###I-refer a###O <attribute>###B-attribute value###O of###O <value>###B-value .###O|adjust
+change###B-action the###O <attribute>###B-attribute of###O the###B-refer whole###I-refer apple###I-refer to###O <value>###B-value|adjust
+decrease###B-action <attribute>###B-attribute of###O computer###B-refer monitor###I-refer on###I-refer right###I-refer by###O <value>###B-value|adjust
+edit###B-action the###O <attribute>###B-attribute to###O <value>###B-value on###O the###B-refer pastry###I-refer directly###I-refer in###I-refer front###I-refer .###O|adjust
+the###B-refer sink###I-refer on###I-refer the###I-refer right###I-refer needs###O <attribute>###B-attribute modified###B-action by###O a###O value###O of###O <value>###B-value|adjust
+modify###B-action <attribute>###B-attribute on###O the###B-refer third###I-refer boat###I-refer from###I-refer front###I-refer by###O <value>###B-value .###O|adjust
+change###B-action the###O <attribute>###B-attribute of###O the###B-refer giraffe###I-refer on###I-refer the###I-refer left###I-refer to###O <value>###B-value .###O|adjust
+set###B-action the###O <attribute>###B-attribute of###O the###B-refer broccoli###I-refer on###I-refer the###I-refer left###I-refer to###O a###O value###O of###O <value>###B-value|adjust
+please###O edit###B-action the###O <attribute>###B-attribute for###O the###B-refer luggage###I-refer with###I-refer the###I-refer cat###I-refer on###I-refer top###I-refer to###O <value>###B-value|adjust
+please###O edit###B-action the###O <attribute>###B-attribute for###O the###B-refer glazed###I-refer donut###I-refer in###I-refer the###I-refer center###I-refer row###I-refer all###I-refer the###I-refer way###I-refer to###I-refer the###I-refer right###I-refer to###O <value>###B-value|adjust
+please###O edit###B-action the###O <attribute>###B-attribute for###O the###B-refer big###I-refer elephant###I-refer to###O <value>###B-value|adjust
+set###B-action the###O <attribute>###B-attribute of###O the###B-refer left###I-refer bird###I-refer to###O <value>###B-value|adjust
+edit###B-action the###O <attribute>###B-attribute of###O the###B-refer keyboard###I-refer on###I-refer the###I-refer left###I-refer with###I-refer the###I-refer black###I-refer mouse###I-refer on###I-refer top###I-refer to###O a###O value###O of###O <value>###B-value .###O|adjust
+increase###B-action the###O <attribute>###B-attribute of###O the###B-refer clock###I-refer on###I-refer the###I-refer right###I-refer by###O <value>###B-value .###O|adjust
+set###B-action the###O <attribute>###B-attribute to###O <value>###B-value on###O the###B-refer open###I-refer fridge###I-refer .###O|adjust
+please###O edit###B-action the###O <attribute>###B-attribute of###O the###B-refer horse###I-refer to###O <value>###B-value|adjust
+apply###B-action <value>###B-value <attribute>###B-attribute to###O pillow###B-refer|adjust
+modify###B-action <attribute>###B-attribute by###O <value>###B-value on###O the###B-refer right###I-refer monitor###I-refer .###O|adjust
+edit###B-action the###O <attribute>###B-attribute of###O the###B-refer bear###I-refer on###I-refer the###I-refer left###I-refer to###O <value>###B-value .###O|adjust
+increase###B-action the###O <attribute>###B-attribute of###O the###B-refer right###I-refer top###I-refer part###I-refer of###I-refer the###I-refer parking###I-refer meter###I-refer by###O <value>###B-value .###O|adjust
+please###O edit###B-action the###O <attribute>###B-attribute for###O the###B-refer front###I-refer cow###I-refer 's###I-refer legs###I-refer to###O <value>###B-value|adjust
+set###B-action the###O <attribute>###B-attribute of###O the###B-refer dog###I-refer on###I-refer the###I-refer right###I-refer to###O <value>###B-value|adjust
+change###B-action the###O <attribute>###B-attribute of###O the###B-refer blue###I-refer truck###I-refer on###I-refer the###I-refer left###I-refer to###O <value>###B-value|adjust
+please###O edit###B-action the###O <attribute>###B-attribute for###O the###B-refer left###I-refer bear###I-refer to###O <value>###B-value|adjust
+edit###B-action the###O <attribute>###B-attribute of###O the###B-refer heavily###I-refer decorated###I-refer bike###I-refer in###I-refer the###I-refer center###I-refer to###O a###O value###O of###O <value>###B-value|adjust
+change###B-action the###O <attribute>###B-attribute of###O the###B-refer cat###I-refer on###I-refer the###I-refer right###I-refer by###O <value>###B-value|adjust
+change###B-action the###O <attribute>###B-attribute property###O to###O <value>###B-value to###O the###B-refer first###I-refer man###I-refer from###I-refer the###I-refer left###I-refer .###O|adjust
+modify###B-action the###O <attribute>###B-attribute for###O the###B-refer black###I-refer dog###I-refer that###I-refer is###I-refer laying###I-refer down###I-refer by###O <value>###B-value .###O|adjust
+reduce###B-action the###O <attribute>###B-attribute of###O the###B-refer bright###I-refer blue###I-refer truck###I-refer at###I-refer far###I-refer left###I-refer by###O a###O value###O of###O <value>###B-value .###O|adjust
+decrease###B-action the###O <attribute>###B-attribute of###O the###B-refer third###I-refer boat###I-refer from###I-refer left###I-refer by###O a###O value###O of###O <value>###B-value|adjust
+change###B-action the###O <attribute>###B-attribute of###O the###B-refer pastry###I-refer on###I-refer the###I-refer bottom###I-refer right###I-refer to###O <value>###B-value .###O|adjust
+please###O edit###B-action the###O <attribute>###B-attribute of###O the###B-refer right###I-refer white###I-refer spoon###I-refer to###O <value>###B-value|adjust
+change###B-action the###O <attribute>###B-attribute of###O the###B-refer flowers###I-refer in###I-refer the###I-refer middle###I-refer ,###I-refer red###I-refer pot###I-refer to###O <value>###B-value .###O|adjust
+modify###B-action the###O <attribute>###B-attribute of###O the###B-refer whole###I-refer apple###I-refer by###O <value>###B-value .###O|adjust
+eidt###B-action the###O <attribute>###B-attribute of###O the###B-refer fries###I-refer on###I-refer the###I-refer right###I-refer to###O a###O value###O of###O <value>###B-value|adjust
+change###B-action the###O <attribute>###B-attribute of###O the###B-refer dog###I-refer in###I-refer the###I-refer front###I-refer right###I-refer to###O <value>###B-value .###O|adjust
+change###B-action the###O <attribute>###B-attribute of###O the###B-refer left###I-refer horse###I-refer to###O <value>###B-value .###O|adjust
+the###B-refer real###I-refer cat###I-refer on###I-refer the###I-refer left###I-refer needs###O <attribute>###B-attribute changed###B-action by###O a###O value###O of###O <value>###B-value .###O|adjust
+decrease###B-action the###O <attribute>###B-attribute of###O the###B-refer bottom###I-refer left###I-refer bear###I-refer by###O <value>###B-value .###O|adjust
+edit###B-action the###O <attribute>###B-attribute of###O the###B-refer top###I-refer plane###I-refer to###O <value>###B-value .###O|adjust
+change###B-action the###B-refer cellphone###I-refer facing###I-refer towards###I-refer you###I-refer 's###O <attribute>###B-attribute to###O <value>###B-value .###O|adjust
+the###B-refer blue###I-refer bus###I-refer needs###O <attribute>###B-attribute modification###B-action of###O value###O <value>###B-value|adjust
+the###B-refer giraffe###I-refer on###I-refer the###I-refer left###I-refer needs###B-action <attribute>###B-attribute modification###O at###O value###O <value>###B-value|adjust
+please###O edit###B-action the###O <attribute>###B-attribute for###O the###B-refer broccoli###I-refer on###I-refer the###I-refer left###I-refer to###O <value>###B-value|adjust
+edit###B-action the###O <attribute>###B-attribute of###O the###B-refer motorcycle###I-refer on###I-refer the###I-refer right###I-refer to###O <value>###B-value .###O|adjust
+edit###B-action the###O <attribute>###B-attribute of###O the###B-refer cake###I-refer below###I-refer the###I-refer candles###I-refer to###O a###O value###O of###O <value>###B-value|adjust
+edit###B-action the###O <attribute>###B-attribute of###O the###B-refer front###I-refer guy###I-refer to###O <value>###B-value .###O|adjust
+change###B-action the###O <attribute>###B-attribute of###O the###B-refer parking###I-refer meter###I-refer on###I-refer the###I-refer left###I-refer to###O <value>###B-value|adjust
+please###O edit###B-action the###O <attribute>###B-attribute for###O the###B-refer left###I-refer horse###I-refer to###O <value>###B-value|adjust
+please###O edit###B-action the###O <attribute>###B-attribute for###O the###B-refer cat###I-refer on###I-refer the###I-refer left###I-refer to###O <value>###B-value|adjust
+increase###B-action the###O <attribute>###B-attribute of###O the###B-refer bike###I-refer closer###I-refer to###I-refer the###I-refer cars###I-refer by###O <value>###B-value .###O|adjust
+decrease###B-action the###O <attribute>###B-attribute of###O the###B-refer front###I-refer orange###I-refer tilted###I-refer inward###I-refer by###O <value>###B-value .###O|adjust
+edit###B-action the###O <attribute>###B-attribute of###O the###B-refer second###I-refer pair###I-refer of###I-refer scissors###I-refer from###I-refer the###I-refer top###I-refer to###O <value>###B-value .###O|adjust
+modify###B-action <attribute>###B-attribute by###O <value>###B-value on###O top###B-refer part###I-refer of###I-refer chair###I-refer in###I-refer upper###I-refer right###I-refer corner###I-refer|adjust
+edit###B-action the###B-refer dog###I-refer in###I-refer the###I-refer front###I-refer so###O that###O the###O <attribute>###B-attribute is###O <value>###B-value .###O|adjust
+add###B-action <attribute>###B-attribute and###O change###O the###O value###O to###O <value>###B-value to###O the###B-refer right###I-refer motorcycle###I-refer .###O|adjust
+edit###B-action the###O <attribute>###B-attribute of###O the###B-refer bottom###I-refer left###I-refer car###I-refer in###I-refer the###I-refer corner###I-refer to###O a###O value###O of###O <value>###B-value|adjust
+change###B-action the###O <attribute>###B-attribute of###O the###B-refer girl###I-refer facing###I-refer the###I-refer camera###I-refer holding###I-refer the###I-refer red###I-refer shirt###I-refer to###O <value>###B-value .###O|adjust
+change###B-action the###O <attribute>###B-attribute of###O the###B-refer white###I-refer car###I-refer in###I-refer the###I-refer left###I-refer bottom###I-refer corner###I-refer to###O <value>###B-value .###O|adjust
+please###O edit###B-action the###O <attribute>###B-attribute for###O the###B-refer parking###I-refer meter###I-refer on###I-refer the###I-refer right###I-refer to###O <value>###B-value|adjust
+decrease###B-action the###O <attribute>###B-attribute of###O the###B-refer front###I-refer teddy###I-refer bear###I-refer by###O <value>###B-value .###O|adjust
+increase###B-action the###O <attribute>###B-attribute of###O the###B-refer phone###I-refer (###I-refer not###I-refer the###I-refer phone###I-refer 's###I-refer reflection###I-refer )###O by###O <value>###B-value .###O|adjust
+give###B-action the###B-refer luggage###I-refer with###I-refer a###I-refer cat###I-refer on###I-refer it###I-refer a###O <attribute>###B-attribute value###O of###O <value>###B-value .###O|adjust
+edit###B-action the###O <attribute>###B-attribute of###O the###B-refer cow###I-refer on###I-refer the###I-refer left###I-refer to###O <value>###B-value .###O|adjust
+please###O increase###B-action the###O <attribute>###B-attribute of###O the###B-refer horse###I-refer being###I-refer ridden###I-refer by###O <value>###B-value .###O|adjust
+modify###B-action the###O <attribute>###B-attribute for###O the###B-refer plane###I-refer on###I-refer top###I-refer by###O <value>###B-value .###O|adjust
+please###O edit###B-action the###O <attribute>###B-attribute for###O the###B-refer hot###I-refer dog###I-refer closest###I-refer to###I-refer the###I-refer drink###I-refer to###O <value>###B-value|adjust
+increase###B-action the###O <attribute>###B-attribute of###O the###B-refer top###I-refer oven###I-refer by###O a###O value###O of###O <value>###B-value .###O|adjust
+change###B-action the###O <attribute>###B-attribute of###O the###B-refer bird###I-refer on###I-refer the###I-refer right###I-refer to###O <value>###B-value .###O|adjust
+edit###B-action the###O <attribute>###B-attribute of###O the###B-refer dog###I-refer lying###I-refer down###I-refer in###I-refer front###I-refer to###O a###O value###O of###O <value>###B-value|adjust
+set###B-action the###O <attribute>###B-attribute value###O of###O the###B-refer round###I-refer clock###I-refer on###I-refer the###I-refer right###I-refer to###O <value>###B-value|adjust
+modify###B-action <attribute>###B-attribute by###O <value>###B-value on###O the###B-refer cat###I-refer on###I-refer the###I-refer right###I-refer side###I-refer .###O|adjust
+decrease###B-action the###O <attribute>###B-attribute of###O the###B-refer blue###I-refer and###I-refer white###I-refer train###I-refer by###O <value>###B-value .###O|adjust
+please###O increase###B-action the###O <attribute>###B-attribute of###O the###B-refer red###I-refer bench###I-refer behind###I-refer the###I-refer batter###I-refer by###O <value>###B-value .###O|adjust
+please###O edit###B-action the###O <attribute>###B-attribute for###O the###B-refer yellow###I-refer planter###I-refer to###O <value>###B-value|adjust
+edit###B-action the###O <attribute>###B-attribute of###O the###B-refer chair###I-refer above###I-refer the###I-refer dog###I-refer to###O <value>###B-value .###O|adjust
+edit###B-action the###O <attribute>###B-attribute of###O the###B-refer keyboard###I-refer o###I-refer the###I-refer left###I-refer with###I-refer the###I-refer black###I-refer mouse###I-refer on###I-refer top###I-refer to###O a###O value###O of###O <value>###B-value|adjust
+modify###B-action <attribute>###B-attribute on###O dark###B-refer cow###I-refer to###I-refer the###I-refer right###I-refer by###O <value>###B-value .###O|adjust
+give###B-action the###B-refer mustard###I-refer a###O <attribute>###B-attribute value###O of###O <value>###B-value .###O|adjust
+change###B-action the###O <attribute>###B-attribute of###O the###B-refer animal###I-refer on###I-refer the###I-refer left###I-refer to###O <value>###B-value .###O|adjust
+increase###B-action the###O <attribute>###B-attribute of###O the###B-refer blue###I-refer board###I-refer that###I-refer is###I-refer standing###I-refer by###O <value>###B-value .###O|adjust

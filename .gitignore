@@ -1,2 +1,5 @@
+__MACOSX
+work_dir.debug
+
 __pycache__
 .vscode
