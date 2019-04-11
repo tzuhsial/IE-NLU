@@ -68,12 +68,10 @@ def train(opt):
     # Data Config
     train_data = list(zip(*read_tag_file(opt['--train'])))
     valid_data = list(zip(*read_tag_file(opt['--valid'])))
-    test_data = list(zip(*read_tag_file(opt['--test'])))
     vocab = load_from_pickle(opt['--vocab'])
 
     print("train", len(train_data))
     print("valid", len(valid_data))
-    print("test", len(test_data))
     print(vocab)
 
     # Model config
@@ -211,7 +209,7 @@ def test(opt):
     recalls = []
     nintent = len(test_data)
     nintent_correct = 0
-    
+
     ndata = len(test_data)
     nwrong = 0
 
@@ -235,7 +233,7 @@ def test(opt):
 
     intent_acc = nintent_correct / nintent
     print("F1", np.mean(f1scores), "Precision", np.mean(precisions), "Recall",
-            np.mean(recalls), "Intent", intent_acc)
+          np.mean(recalls), "Intent", intent_acc)
     print("wrong ratio", nwrong/ndata)
 
 

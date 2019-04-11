@@ -2,3 +2,4 @@ docopt
 flask
 nltk 
 torch 
+numpy 

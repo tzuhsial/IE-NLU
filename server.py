@@ -29,16 +29,15 @@ def load_model(opt):
     model = IOBTagger.load(model_path)
 
 
-@app.route("/nlu", methods=["GET", "POST"])
+@app.route("/nlu", methods=["POST"])
 def tag(opt):
     args = request.json or request.form
 
     sent = args['sent']
+    print("Sentence", sent)
 
     result = model.tag(sent)
-    print("Sentence", sent)
     print("predicted", result)
-
     return jsonify(result)
 
 
