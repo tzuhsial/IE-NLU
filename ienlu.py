@@ -207,21 +207,36 @@ def test(opt):
     model = IOBTagger.load(model_path, use_cuda)
 
     f1scores = []
-
+    precisions = []
+    recalls = []
     nintent = len(test_data)
     nintent_correct = 0
+    
+    ndata = len(test_data)
+    nwrong = 0
 
     for sent, tags_true, intent_true in tqdm(test_data):
 
         tags_pred, intent_pred = model.predict(sent)
 
-        score = computeF1Score(tags_pred, tags_true)
-        f1scores.append(score)
+        f, p, r = computeF1Score(tags_pred, tags_true)
+
+        if f < 100:
+            nwrong += 1
+            print("sent", sent)
+            print("true", tags_true)
+            print("pred", tags_pred)
+
+        f1scores.append(f)
+        precisions.append(p)
+        recalls.append(r)
 
         nintent_correct += intent_pred == intent_true
 
     intent_acc = nintent_correct / nintent
-    print("F1", np.mean(f1scores), "Intent", intent_acc)
+    print("F1", np.mean(f1scores), "Precision", np.mean(precisions), "Recall",
+            np.mean(recalls), "Intent", intent_acc)
+    print("wrong ratio", nwrong/ndata)
 
 
 def terminal(opt):
