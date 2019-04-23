@@ -7,7 +7,7 @@ Options:
     -h --help               Show this screen.
     --version               Show version.
     -d --debug              Debug mode
-    -p --port=<int>         Port [default: 6000]
+    -p --port=<int>         Port [default: 5000]
     --work-dir=<file>       Work dir that contains model
 """
 import os
