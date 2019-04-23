@@ -30,7 +30,8 @@ def load_model(opt):
 
 
 @app.route("/nlu", methods=["POST"])
-def tag(opt):
+def tag():
+    print('enter function')
     args = request.json or request.form
 
     sent = args['sent']
