@@ -119,7 +119,7 @@ class IOBTagger(nn.Module):
         for token in word_tokenize(sent):
             if token in ["brightness", "contrast", "hue", "saturation", "lightness"]:
                 word = "<attribute>"
-            elif token.isdigit() or (token[0] == "-" and token[1:].isdigit()):
+            elif token.isdigit() or (token[0] in ["-", "+"] and token[1:].isdigit()):
                 word = "<value>"
             else:
                 word = token
